@@ -7,13 +7,13 @@ box-sizing: border-box
 }
 
 body{
-font-size:62.5%;
+font-size:72.5%;
 font-family:arial, sans-serif;
 color: #white;
 }
 
-.wrapper{
- font-size: 1.6em;
+wrapper{
+ font-size: 2.0 em;
  padding: 2em;
  margin: 0 auto;
  width: 768px;
