@@ -9,5 +9,13 @@ box-sizing: border-box
 body{
 font-size:62.5%;
 font-family:arial, sans-serif;
-color: white;
+color: #white;
 }
+
+.wrapper{
+ font-size: 1.6em;
+ padding: 2em;
+ margin: 0 auto;
+ width: 768px;
+ background-color:white;
+ }
