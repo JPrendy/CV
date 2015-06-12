@@ -59,8 +59,14 @@ color: #blue;
    background-color:red;
 }
 
+#menu3{
+  float: left;
+   width:85%;
+   background-color:yellow;
+}
+
 
 #slide{
-width: 30px;
-height:30px;
+width: 400px;
+height:400px;
 }
