@@ -20,4 +20,18 @@ wrapper{
  background-color:white;
  }
  
- 
+ aside {
+  float:right;
+  margin-left: 35px;
+}
+
+
+main {
+  float: left;
+
+}
+
+slide{
+width: 30px;
+height:30px;
+}
