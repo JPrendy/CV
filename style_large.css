@@ -6,32 +6,61 @@ margin: 0;
 box-sizing: border-box
 }
 
+.header{
+
+  box-shadow: 10px 10px 5px grey;
+
+  
+    background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D8D8D8, #F0F0F0); /* Standard syntax (must be last) */
+}
+ 
+
 body{
-font-size:82.5%;
+font-size:112.5%;
 font-family:Times New Roman;
 color: #white;
 }
 
-wrapper{
+
+#div1 {
+  float:right;
+ width:15%;
+ 
+}
+
+.wrapper{
  font-size: 2.0 em;
- padding: 2em;
+ padding: 0.4em;
  margin: 0 auto;
- width: 990px;
+ width: 100%;
  background-color:white;
  }
  
- aside {
-  float:right;
-  margin-left: 35px;
+.footer
+{
+font-size:112.5%;
+font-family:Times New Roman;
+background-color:blue;
+color: #blue;
 }
 
-
-main {
+#menu1 {
   float: left;
-
+   width:100%;
 }
 
-slide{
+
+#menu2{
+  float: left;
+   width:85%;
+   background-color:red;
+}
+
+
+#slide{
 width: 30px;
 height:30px;
 }

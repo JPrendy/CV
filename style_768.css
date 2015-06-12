@@ -7,31 +7,31 @@ box-sizing: border-box
 }
 
 body{
-font-size:Times New Roman;
-font-family:arial, sans-serif;
+font-size:82.5%;
+font-family:Times New Roman;
 color: #white;
 }
 
-wrapper{
+.wrapper{
  font-size: 2.0 em;
  padding: 2em;
  margin: 0 auto;
  width: 768px;
  background-color:white;
  }
- 
-  aside {
+
+#div1 {
   float:right;
   margin-left: 35px;
 }
 
 
-main {
+#menu {
   float: left;
-
+   width:800px;
 }
 
-slide{
+#slide{
 width: 30px;
 height:30px;
 }
