@@ -33,9 +33,9 @@ color: #white;
 
 .wrapper{
  font-size: 2.0 em;
- padding: 0.4em;
+
  margin: 0 auto;
- width: 600px;
+ width: 100%;
  background-color:white;
  }
  
@@ -50,6 +50,7 @@ color: #blue;
 #menu1 {
   float: left;
    width:100%;
+background-color:red;
 }
 
 
