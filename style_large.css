@@ -17,6 +17,10 @@ box-sizing: border-box
     background: linear-gradient(#D8D8D8, #F0F0F0); /* Standard syntax (must be last) */
 }
  
+ .header:hover {
+    background: #0099cc;
+}
+
 #header2{
   border-radius: 10px;
   box-shadow: 10px 10px 5px grey;
@@ -27,6 +31,11 @@ box-sizing: border-box
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#D8D8D8, #F0F0F0); /* Standard syntax (must be last) */
 }
+
+#header2:hover {
+    background: #0099cc;
+}
+
 
 body{
 font-size:112.5%;
@@ -79,14 +88,19 @@ color: #blue;
    font-size:50.5%
 }
 
+#headmenuproject {
+  float: left;
+   width:100%;
+   font-size:50.5%
+}
 
-#menu2{
+#mainmenu{
   float: left;
    width:85%;
    background-color:red;
 }
 
-#menu3{
+#mainmenuproject{
   float: left;
    width:85%;
    background-color:yellow;

@@ -61,11 +61,18 @@ color: #blue;
 }
 
 
-#menu2{
+#mainmenu{
   float: left;
    width:85%;
    background-color:red;
 }
+
+#mainmenuproject{
+  float: left;
+   width:85%;
+   background-color:yellow;
+}
+
 
 
 #slide{
