@@ -62,10 +62,16 @@ color: #blue;
 }
 
 
-#menu2{
+#mainmenu{
   float: left;
    width:100%;
    background-color:red;
+}
+
+#mainmenuproject{
+  float: left;
+   width:100%;
+   background-color:yellow;
 }
 
 
