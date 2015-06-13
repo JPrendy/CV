@@ -31,6 +31,14 @@ color: #white;
  
 }
 
+#sidemenu2{
+   padding-top: 25px;
+    margin-top: 25px;
+  float:right;
+ width:15%;
+ 
+}
+
 .wrapper{
  font-size: 2.0 em;
  margin: 0 auto;

@@ -58,6 +58,15 @@ margin-top: 100px;
  
 }
 
+
+#sidemenu2{
+   padding-top: 225px;
+  background-color: green;
+  float:right;
+ width:15%;
+ 
+}
+
 .wrapper{
  font-size: 2.0 em;
  padding: 0.4em;
