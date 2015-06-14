@@ -37,7 +37,9 @@ h2 {
     background: linear-gradient(#D8D8D8, #F0F0F0); /* Standard syntax (must be last) */
 }
 
-
+#headmenu{
+  font-size: 40px;
+}
 
 
 body{
