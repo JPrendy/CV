@@ -28,13 +28,13 @@ h2 {
 
 #header2{
   border-radius: 10px;
-  box-shadow: 10px 10px 5px grey;
+
  margin-top:-30px;
 
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#D8D8D8, #F0F0F0); /* Standard syntax (must be last) */
+    background: linear-gradient(#1919D1, #4747DA); /* Standard syntax (must be last) */
 }
 
 #headmenu{
@@ -74,7 +74,7 @@ margin-top: 100px;
 
 .wrapper{
  font-size: 2.0 em;
- padding: 0.4em;
+
  margin: 0 auto;
  width: 100%;
  background-color:white;
@@ -110,15 +110,17 @@ color: #blue;
 
 #mainmenu{
   float: left;
-   width:85%;
+   width:84%;
    background-color:red;
-     font-size:130.5%
+     font-size:130.5%;
+	  margin-left:5px;
 }
 
 #mainmenuproject{
   float: left;
    width:85%;
    background-color:yellow;
+  
 }
 
 
