@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="style_large.css">
+
+
+
+
+<!--<link rel="stylesheet" href="w3.css">-->
+
+
+
+
+
+<link rel="stylesheet" type="text/css" 
+href="style_large.css">
 
 <link rel="stylesheet" type="text/css" media="only screen and (min-width:768px) 
 and (max-width:980px)"
-href="css/style_768.css">
+href="style_768.css">
+
 <link rel="stylesheet" type="text/css" media="only screen and (min-width:600px) 
 and (max-width:767px)"
 href="style_600.css">
@@ -13,33 +25,45 @@ href="style_600.css">
 and (max-width:599px)"
 href="style_300.css">
 
-
-<!--<link rel="stylesheet" href="w3.css">-->
-
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) 
+and (max-width:299px)"
+href="style_150.css">
 
 <head>
-<title> Feedback</title>
+<title> Curriculum Vitae</title>
 <link rel="icon" href="j4.png" type="image" sizes="16x16">
 <!--this is where the favicon is-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 <div class="wrapper">
-<a name="return"/a>
+<a name="return"/>
+<a name="home"/>
+
+<div class="header">
+
+<div id="title">
+<center><a href="index.html" ><font id="name"> James Maurice Prendergast</font></center></a>
+</div>
+
+<div id="logo"></div>
+
+</div>
 
 
-<div class="header" style="background-color:blue;">
-<h1><center><a href="index.html" ondblclick="detectClick()">James Maurice Prendergast</center></h1></a>
 
 
-<table summary="This is the main table" style="width:100%">
+
+<div id="header2">
+<table summary="This is the main table" style="width:100%" id="table1">
 <tr id="style2" align="center"> 
-<td><a href="index.html" ondblclick="detectClick()"><h1>Curriculum Vitae </h1></a></td>
-<td><a href="projects.html" ondblclick="detectClick()"><h1>Projects</h1></a></td>
-<br></br>
+<td><a href="index.html" ><font id="CVlink"> Curriculum Vitae</font></a></td>
+<td><a href="projects.html"><font id="Plink"> Projects </font></a></td>
+
 </tr>
 </table>
 </div>
-
 
 
 
@@ -51,15 +75,24 @@ href="style_300.css">
  <a href="#return">Return to the top of the page</a>
 <br></br>
 
-<div id="footer" style="clear:both;text-align:center;height:20px;float:bottom;">
+<div id="abovefooter" style="clear:both;text-align:center;height:30px;float:bottom;">
 <br></br>
- <a href="about.html" ondblclick="detectClick()">About,  </a>
- <a href="feedback.html" ondblclick="detectClick()">Feedback, </a>
-<a href="contact.html" ondblclick="detectClick()">Contact Us, </a> 
-Blog
+<center>
+<table id="table2" style="width:100%;text-align:center;">
+ <td><a href="about.html" ondblclick="detectClick()">About  </a></td>
+ <td><a href="feedback.html" ondblclick="detectClick()">Feedback </a></td>
+<td><a href="contact.html" ondblclick="detectClick()">Contact  </a></td>
+ <td>Blog</td>
+</table></center>
+ </div>
+ 
+  <br></br>
+  <br></br>
+ <div class="footer" style="clear:both;text-align:center;height:30px;float:bottom;">
 
   <h4>Copyright &copy; JamesMauricePrendergast.com</h4>
 </div>
+
 </div>
 </body>
-</html>
+</html> 
