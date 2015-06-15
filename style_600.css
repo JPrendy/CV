@@ -64,6 +64,7 @@ font-size:112.5%;
 font-family:Times New Roman;
 background-color:blue;
 color: #blue;
+width:100%;
 }
 
 
@@ -96,8 +97,8 @@ background-color:red;
 
 
 #slide{
-width: 30px;
-height:30px;
+width: 400px;
+height:400px;
 }
 
 
