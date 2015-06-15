@@ -42,7 +42,15 @@ h2 {
 
 #sidemenu {
   float:left;
+  width:15%;
+ 
+}
 
+#sidemenu2{
+   padding-top: 0px;
+  background-color: green;
+  float:right;
+ width:15%;
  
 }
 
@@ -60,6 +68,7 @@ font-size:112.5%;
 font-family:Times New Roman;
 background-color:blue;
 color: #blue;
+width:100%;
 }
  
 .footer
@@ -113,4 +122,23 @@ font-size:30px;
 
 #name{
 font-size:40px;
+}
+
+
+#row1{
+  
+  padding-bottom: 0px;
+}
+#row2{
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#row3{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#row4{
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
