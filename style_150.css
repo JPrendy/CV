@@ -16,7 +16,7 @@ box-sizing: border-box
  
  #header2{
   border-radius: 10px;
- height:80px;
+ height:90px;
    width:100%;
 
 
@@ -44,7 +44,7 @@ color: #white;
   float: left;
    width:100%;
    background-color:red;
-   font-size:110.5%;
+   font-size:100.5%;
 }
 
 #sidemenu {
