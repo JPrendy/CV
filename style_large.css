@@ -6,18 +6,41 @@ margin: 0;
 box-sizing: border-box
 }
 
-.header{
+#title{
 
- 
-
-  
+ font-size:220%px;
+ float:right;
+      width: 90%;
+	  	height: 100px;
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(white, white); /* Standard syntax (must be last) */
 }
  
+#logo{
+    width: 10%;
+	height: 100px;
+     float:left;
+   
+    background-color: red;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
 
 h2 {
     font-size: 30px;
@@ -151,11 +174,23 @@ border-radius: 10px;
     border: 1px solid black;
 }
 
+
+#row1{
+  
+  padding-bottom: 100px;
+}
+#row2{
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#row3{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 #row4{
-  margin-top: 10px;
-  padding-top: 10px;
-   margin-bottom: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
  td:hover {
