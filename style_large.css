@@ -6,16 +6,23 @@ margin: 0;
 box-sizing: border-box
 }
 
+
+.header{
+
+  	height: 100px;
+}
+
+
 #title{
 
- font-size:220%px;
+   	height: 100px;
  float:right;
       width: 90%;
-	  	height: 100px;
+	
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, white); /* Standard syntax (must be last) */
+    background: linear-gradient(white, red); /* Standard syntax (must be last) */
 }
  
 #logo{
@@ -42,15 +49,13 @@ box-sizing: border-box
     to {background-color: yellow;}
 }
 
-h2 {
-    font-size: 30px;
-}
+
 
 
 #header2{
   border-radius: 10px;
-  padding: -0.4em;
- margin-top:-30px;
+ height:70px;
+
 
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
@@ -59,8 +64,9 @@ h2 {
 }
 
 #headmenu{
-  font-size: 40px;
-}
+  font-size:10px;
+   background-color: brown;
+  }
 
 
 body{
@@ -125,7 +131,8 @@ color: #blue;
 #headmenu {
   float: left;
    width:100%;
-   font-size:80.5%
+   font-size:80.5%;
+  
 }
 
 #headmenuproject {
@@ -156,11 +163,7 @@ height:400px;
 border-radius: 10px;
 }
 
- #table1{
-  margin-top:-41px;
-   border-radius: 10px;
-    border: 1px solid black;
-}
+
 
  #table2{
   
@@ -199,10 +202,12 @@ border-radius: 10px;
 
 a:link {
     text-decoration: none;
+	color:black;
 }
 
 a:visited {
     text-decoration: none;
+	color:black;
 }
 
 a:hover {
@@ -211,4 +216,14 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+#link2{
+font-size:30px;
+}
+#CVlink{
+font-size:57px;
+}
+#Plink{
+font-size:57px;
 }
