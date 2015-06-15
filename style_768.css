@@ -70,7 +70,7 @@ color: #blue;
 
 #mainmenu{
   float: left;
-   width:84%;
+   width:85%;
    background-color:red;
 }
 
@@ -87,3 +87,17 @@ width: 400px;
 height:400px;
 }
 
+#link2{
+font-size:100%;
+}
+
+#CVlink{
+font-size:200%;
+}
+#Plink{
+font-size:200%;
+}
+
+#name{
+font-size:46px;
+}
