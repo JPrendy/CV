@@ -37,18 +37,20 @@ box-sizing: border-box
     animation-duration: 4s;
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
 }
-
 
 
 
@@ -61,8 +63,9 @@ box-sizing: border-box
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
-}
+    background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
+#7E7EE5
+	}
 
 #headmenu{
   font-size:10px;
@@ -95,7 +98,7 @@ width:15%;
 
 #sidemenu2{
    padding-top: 225px;
-  background-color: green;
+  background-color: White;
   float:right;
  width:15%;
  
@@ -185,16 +188,16 @@ border-radius: 10px;
 }
 #row2{
 
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
   
 }
 #row3{
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 #row4{
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
@@ -240,4 +243,8 @@ font-size:30px;
 
 #name{
 font-size:66px;
+}
+
+#return{
+font-size:30px;
 }
