@@ -11,6 +11,18 @@ box-sizing: border-box
  	height: 100px;
 }
  
+ #header2{
+  border-radius: 10px;
+ height:70px;
+   width:100%;
+
+
+    background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
+}
+
  
  #title{
 
@@ -74,12 +86,13 @@ font-size:112.5%;
 font-family:Times New Roman;
 background-color:blue;
 color: #blue;
+width:100%;
 }
 
 #headmenu {
   float: left;
    width:100%;
-background-color:red;
+     background-color: brown;
 }
 
 
