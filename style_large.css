@@ -177,6 +177,7 @@ border-radius: 10px;
    background-color:white;
    border-radius: 10px;
     border: 1px solid black;
+	
 }
 
 
@@ -228,4 +229,8 @@ font-size:57px;
 }
 #Plink{
 font-size:57px;
+}
+
+#h{
+font-size:100%;
 }
