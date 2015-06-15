@@ -14,6 +14,17 @@ box-sizing: border-box
     background: linear-gradient(white, white); /* Standard syntax (must be last) */
 }
  
+ #header2{
+  border-radius: 10px;
+ height:80px;
+   width:100%;
+
+
+    background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
+}
 
 body{
 font-size:112.5%;
@@ -70,6 +81,7 @@ color: #blue;
   float: left;
    width:100%;
    background-color:red;
+   font-size:110.5%;
 }
 
 #mainmenuproject{

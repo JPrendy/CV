@@ -55,7 +55,7 @@ box-sizing: border-box
 #header2{
   border-radius: 10px;
  height:70px;
-   width:100%
+   width:100%;
 
 
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
