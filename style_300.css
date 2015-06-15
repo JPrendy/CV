@@ -125,20 +125,31 @@ font-size:40px;
 }
 
 
+#sidemenu{
+  display: none;
+}
+
+#sidemenu2{
+  width:100%;
+
+}
+
+
 #row1{
   
-  padding-bottom: 0px;
+ 
+  display: none;
 }
 #row2{
 
-  padding-top: 0px;
-  padding-bottom: 0px;
+  
+  display: none;
 }
 #row3{
-  padding-top: 0px;
-  padding-bottom: 0px;
+
+  display: none;
 }
 #row4{
-  padding-top: 0px;
-  padding-bottom: 0px;
+  
+  display: none;
 }
