@@ -22,7 +22,7 @@ box-sizing: border-box
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, red); /* Standard syntax (must be last) */
+    background: linear-gradient(white, white); /* Standard syntax (must be last) */
 }
  
 #logo{
@@ -30,11 +30,12 @@ box-sizing: border-box
 	height: 100px;
      float:left;
    
-    background-color: red;
+
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
     animation-duration: 4s;
+	background-color: red;
 }
 
 @-webkit-keyframes example {
@@ -69,7 +70,7 @@ box-sizing: border-box
 
 #headmenu{
   font-size:10px;
-   background-color: brown;
+   background-color: white;
    width:100%
   }
 
@@ -97,7 +98,7 @@ width:15%;
 
 
 #sidemenu2{
-   padding-top: 225px;
+   padding-top: 260px;
   background-color: White;
   float:right;
  width:15%;
@@ -153,9 +154,11 @@ width:100%;
 }
 
 #mainmenuproject{
+
   float: left;
    width:85%;
    background-color:yellow;
+   padding-top:20px;
   
 }
 
@@ -181,10 +184,16 @@ border-radius: 10px;
 	
 }
 
+#row0{
+  
+  padding-bottom: 400px;
+  
+}
 
 #row1{
-  
+   
   padding-bottom: 100px;
+  
 }
 #row2{
 
@@ -198,12 +207,20 @@ border-radius: 10px;
 }
 #row4{
   padding-top: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+}
+
+
+#table3:hover {
+    background-color: #0099cc;
+	 background: #0099cc;
 }
 
  td:hover {
-    background: #0099cc;
+    background-color: #0099cc;
+	 background: #0099cc;
 }
+
 
 a:link {
     text-decoration: none;
