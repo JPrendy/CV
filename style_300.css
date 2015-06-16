@@ -73,10 +73,11 @@ width:100%;
  
 .footer
 {
-font-size:112.5%;
+font-size:100%;
 font-family:Times New Roman;
 background-color:blue;
 color: #blue;
+ width: 100%;
 }
 
 #headmenu{
@@ -152,4 +153,14 @@ font-size:40px;
 #row4{
   
   display: none;
+}
+
+#ok{
+font-size:20px;
+}
+
+#up{
+
+width:60px;
+ height:60px;
 }
