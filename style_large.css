@@ -271,3 +271,13 @@ font-size:30px;
 width:100px;
  height:100px;
 }
+
+#important
+{
+width:15%;
+padding-left:30px;
+}
+
+ li {
+    list-style-type: none;
+}
