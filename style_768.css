@@ -108,3 +108,9 @@ font-size:200%;
 #name{
 font-size:46px;
 }
+
+ li {
+    list-style-type: none;
+	font-size:18px;
+	margin-top:18px;
+}

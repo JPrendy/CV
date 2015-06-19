@@ -186,7 +186,7 @@ border-radius: 10px;
 
 #row0{
  
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   
 }
 
@@ -281,6 +281,8 @@ text-align:center;
 
  li {
     list-style-type: none;
+	font-size:22px;
+	margin-top:18px;
 }
 
 
@@ -291,22 +293,27 @@ text-align:center;
 
 #blogimage{
  margin-top:40px;
+ width:125px;
+ height:125px;
 }
 
 
 #aboutimage{
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
 
 #contactimage{
 
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
 
 
 #feedbackimage{
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
