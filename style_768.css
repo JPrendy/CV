@@ -25,7 +25,7 @@ color: #white;
 
 
 #sidemenu{
-  float:right;
+  float:left;
  width:15%;
  
 }
@@ -33,7 +33,7 @@ color: #white;
 #sidemenu2{
    padding-top: 25px;
     margin-top: 25px;
-  float:right;
+  float:left;
  width:15%;
  
 }
@@ -82,7 +82,12 @@ width:100%;
    background-color:yellow;
 }
 
+#important
+{
 
+width:15%;
+padding-left:0px;
+}
 
 #slide{
 width: 400px;

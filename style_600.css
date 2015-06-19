@@ -29,7 +29,7 @@ box-sizing: border-box
    	height: 100px;
  float:right;
       width: 90%;
-	
+	font-family:arial;
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
@@ -52,6 +52,7 @@ body{
 font-size:112.5%;
 font-family:Times New Roman;
 color: #white;
+width:100%;
 }
 
 
@@ -59,11 +60,32 @@ color: #white;
   float:left;
  width:15%;
  
+  background-color: #3498db;
+    border-radius: 10px;
+    padding: 10px;
+
+    min-height:100%;
+   
+    color: #FFF;
+ 
+}
+
+#sidemenu2{
+   padding-top: 260px;
+  background-color: White;
+  float:right;
+ width:15%;
+ 
+}
+
+#link{
+width:80%;
+
 }
 
 .wrapper{
  font-size: 2.0 em;
-
+ padding: 0.4em;
  margin: 0 auto;
  width: 100%;
  background-color:white;
@@ -90,9 +112,9 @@ width:100%;
 }
 
 #headmenu {
-  float: left;
+ float: left;
    width:100%;
-     background-color: brown;
+   font-size:80.5%;
 }
 
 
@@ -100,18 +122,94 @@ width:100%;
   float: left;
    width:85%;
    background-color:red;
+    font-size:130.5%;
 }
 
 #mainmenuproject{
   float: left;
    width:85%;
    background-color:yellow;
+   padding-top:20px;
 }
 
 
 #slide{
 width: 400px;
 height:400px;
+border-radius: 10px;
+}
+
+ #table2{
+  
+   border-radius: 10px;
+    border: 1px solid black;
+}
+
+ #table3{
+   background-color:white;
+   border-radius: 10px;
+    border: 1px solid black;
+	
+}
+
+
+#row0{
+  width:15%;
+  padding-bottom: 400px;
+  
+}
+
+#row1{
+   
+  padding-bottom: 100px;
+  
+}
+#row2{
+
+  padding-top: 200px;
+  padding-bottom: 100px;
+  
+}
+#row3{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+#row4{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#table3:hover {
+    background-color: #0099cc;
+	 background: #0099cc;
+}
+
+ td:hover {
+    background-color: #0099cc;
+	 background: #0099cc;
+}
+
+
+a:link {
+    text-decoration: none;
+	color:black;
+}
+
+a:visited {
+    text-decoration: none;
+	color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#h{
+font-size:100%;
 }
 
 
@@ -128,4 +226,38 @@ font-size:200%;
 
 #name{
 font-size:46px;
+}
+
+#cv{
+font-size:30px;
+}
+
+#ok{
+font-size:30px;
+
+}
+
+#up{
+width:100px;
+ height:100px;
+}
+
+#important
+{
+
+width:15%;
+padding-left:0px;
+}
+
+ li {
+    list-style-type: none;
+	width:15%;
+
+}
+
+
+
+#blog{
+ padding-left:-5px;
+ font-size:15px;
 }
