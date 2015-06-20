@@ -88,7 +88,7 @@ width:15%;
 
  background-color: #3498db;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
 
     min-height:100%;
    
@@ -186,28 +186,28 @@ border-radius: 10px;
 
 #row0{
  
-  padding-bottom: 200px;
+  padding-bottom: 140px;
   
 }
 
 #row1{
    
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   
 }
 #row2{
 
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 140px;
+  padding-bottom: 40px;
   
 }
 #row3{
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 140px;
+  padding-bottom: 40px;
 }
 #row4{
-  padding-top: 150px;
-  padding-bottom: 125px;
+  padding-top: 140px;
+  padding-bottom: 115px;
 }
 
 
@@ -281,6 +281,8 @@ text-align:center;
 
  li {
     list-style-type: none;
+	font-size:22px;
+	margin-top:20px;
 }
 
 
@@ -289,24 +291,42 @@ text-align:center;
  font-size:30px;
 }
 
+#about{
+ font-size:30px;
+}
+
+#feedback{
+ font-size:30px;
+}
+
+#contact{
+ font-size:30px;
+}
+
+
 #blogimage{
  margin-top:40px;
+ width:125px;
+ height:125px;
 }
 
 
 #aboutimage{
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
 
 #contactimage{
 
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
 
 
 #feedbackimage{
  margin-top:50px;
- 
+ width:95px;
+ height:95px;
 }
