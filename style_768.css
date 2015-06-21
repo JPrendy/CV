@@ -129,6 +129,33 @@ font-size:46px;
 
  li {
     list-style-type: none;
-	font-size:18px;
+	font-size:100%;
 	margin-top:18px;
+	width:15%;
+}
+
+#quicklink{
+padding-left:-5px;
+ font-size:18px;
+ 
+}
+
+#blog{
+padding-left:-5px;
+ font-size:18px;
+}
+
+#about{
+padding-left:-5px;
+ font-size:18px;
+}
+
+#feedback{
+padding-left:-5px;
+ font-size:18px;
+}
+
+#contact{
+padding-left:-5px;
+ font-size:18px;
 }

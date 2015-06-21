@@ -187,7 +187,7 @@ border-radius: 10px;
 #row0{
  
   padding-bottom: 140px;
-  
+  width:15%;
 }
 
 #row1{
@@ -197,16 +197,16 @@ border-radius: 10px;
 }
 #row2{
 
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 40px;
   
 }
 #row3{
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 #row4{
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 115px;
 }
 
@@ -275,17 +275,21 @@ width:100px;
 #important
 {
 width:15%;
-padding-left:35px;
+padding-left:25px;
 text-align:center;
 }
 
  li {
     list-style-type: none;
-	font-size:22px;
+	ffont-size:24px;
+		font-size:100%;
 	margin-top:20px;
 }
 
-
+#quicklink{
+ font-size:30px;
+ 
+}
 
 #blog{
  font-size:30px;
