@@ -129,7 +129,7 @@ font-size:46px;
 
  li {
     list-style-type: none;
-	font-size:18px;
+	font-size:100%;
 	margin-top:18px;
 	width:15%;
 }

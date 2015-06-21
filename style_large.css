@@ -187,7 +187,7 @@ border-radius: 10px;
 #row0{
  
   padding-bottom: 140px;
-  
+  width:15%;
 }
 
 #row1{
@@ -281,7 +281,8 @@ text-align:center;
 
  li {
     list-style-type: none;
-	font-size:24px;
+	ffont-size:24px;
+		font-size:100%;
 	margin-top:20px;
 }
 
