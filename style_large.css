@@ -25,33 +25,12 @@ box-sizing: border-box
     background: linear-gradient(white, white); /* Standard syntax (must be last) */
 }
  
-#logo{
+#animate{
     width: 10%;
 	height: 100px;
      float:left;
-   
+}   
 
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 4s;
-	background-color: red;
-}
-
-@-webkit-keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: red;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: red;}
-}
 
 
 
