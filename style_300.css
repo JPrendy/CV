@@ -88,15 +88,18 @@ font-family:Times New Roman;
 background-color:blue;
 color: #blue;
 width:100%;
+margin-bottom:10px;
 }
+
+
  
 .footer
 {
-font-size:100%;
+font-size:112.5%;
 font-family:Times New Roman;
-background-color:blue;
-color: #blue;
- width: 100%;
+background-color:white;
+color: #white;
+width:100%;
 }
 
 a:link {
