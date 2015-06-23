@@ -38,3 +38,31 @@ padding-left:0px;
 padding-left:0px;
  font-size:22px;
 }
+
+
+#blogimage{
+ margin-top:40px;
+ width:125px;
+ height:125px;
+}
+
+
+#aboutimage{
+ margin-top:50px;
+ width:95px;
+ height:95px;
+}
+
+#contactimage{
+
+ margin-top:50px;
+ width:95px;
+ height:95px;
+}
+
+
+#feedbackimage{
+ margin-top:50px;
+ width:95px;
+ height:95px;
+}
