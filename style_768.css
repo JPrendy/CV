@@ -31,8 +31,9 @@ color: #white;
 }
 
 #sidemenu2{
-   padding-top: 25px;
+   padding-top: 775px;
     margin-top: 25px;
+	
   float:left;
  width:15%;
  
@@ -135,28 +136,28 @@ font-size:46px;
 }
 
 #quicklink{
-padding-left:-5px;
+ float:left;
  font-size:18px;
- 
+ margin-bottom:10px;
 }
 
 #blog{
-padding-left:-5px;
+float:left;
  font-size:18px;
 }
 
 #about{
-padding-left:-5px;
+float:left;
  font-size:18px;
 }
 
 #feedback{
-padding-left:-5px;
+float:left;
  font-size:18px;
 }
 
 #contact{
-padding-left:-5px;
+float:left;
  font-size:18px;
 }
 
