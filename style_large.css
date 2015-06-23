@@ -195,7 +195,12 @@ border-radius: 10px;
 	 background: #0099cc;
 }
 
- td:hover {
+#cvtd:hover {
+    background-color: #0099cc;
+	 background: #0099cc;
+}
+
+#ptd:hover {
     background-color: #0099cc;
 	 background: #0099cc;
 }
