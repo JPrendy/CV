@@ -36,17 +36,11 @@ box-sizing: border-box
     background: linear-gradient(white, red); /* Standard syntax (must be last) */
 }
  
-#logo{
-    width: 10%;
+#animate{
+    width: 5%;
 	height: 100px;
      float:left;
-   
-    background-color: red;
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 4s;
-}
+}   
 
 body{
 font-size:112.5%;
