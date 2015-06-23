@@ -31,7 +31,17 @@ image3.src="space_shooter_screenshot2.jpg"
 </script>
 
 
+<!--this is used to animate my logo-->
 
+<script>
+$(document).ready(function(){
+     // this block will be executed  after DOM loaded
+        var div = $("#animate");  
+        div.animate({left: '5%'}, "slow");
+        div.animate({fontSize: '4em'}, "slow");
+
+});
+</script>
 
 
 
@@ -72,7 +82,8 @@ href="style_150.css">
 <center><a href="index.html" ><font id="name"> James Maurice Prendergast</font></center></a>
 </div>
 
-<div id="logo"></div>
+<!--this is for the id that animates with jQuery-->
+<div id="animate" style=";position:absolute;">JP</div>
 
 </div>
 
@@ -245,9 +256,11 @@ slideit()
   <br></br>
  <div class="footer" style="clear:both;text-align:center;height:30px;float:bottom;">
 
-  <h4>Copyright &copy; JamesMauricePrendergast.com</h4>
+ <b>  <footer id="foot01"></footer></b>
+</div>
+<script src="script.js"></script>
 </div>
 
-</div>
+
 </body>
 </html> 
