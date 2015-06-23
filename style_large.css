@@ -220,6 +220,7 @@ a:visited {
 
 #a:hover {
     text-decoration: underline;
+	
 }
 
 #a:active {
@@ -321,3 +322,32 @@ text-align:center;
  height:95px;
 }
 
+
+
+
+
+
+#education{
+font-size:110%;
+}
+
+#employment{
+font-size:110%;
+}
+
+#skills{
+font-size:110%;
+}
+
+#personalqualities{
+font-size:110%;
+}
+
+
+#achievements{
+font-size:110%;
+}
+
+#interests{
+font-size:110%;
+}
