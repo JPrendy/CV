@@ -70,6 +70,7 @@ h2 {
   background-color:#FAFAFF;
   float:right;
  width:15%;
+   ..border-top-style: inset;
  
 }
 
