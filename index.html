@@ -71,6 +71,15 @@ $(document).ready(function(){
 });
 </script>
 
+<!--this is used to toggle the font size of the main menu-->
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#mainmenu").toggleClass("toggle");
+    });
+});
+</script>
 
 
 
@@ -124,6 +133,7 @@ $(document).ready(function(){
 <p id="link2">    Email: C13446122@mydit.ie </p> 
 <p id="link2">LinkedIn:  <a href="https://www.linkedin.com/in/jamesmprendergast" id="a"> https://www.linkedin.com/in/jamesmprendergast  </p></a>
  </b>
+ 
 </div>
 
 <!--this id acts as the article "main menu" section where most of the important information goes-->
@@ -303,6 +313,10 @@ I have a keen interest in tennis and table tennis. I Begun learning Android Deve
  
  
  </table>
+</div>
+
+<div id="toggle">
+<button>Toggle class</button>
 </div>
 
 <!--this side menu allows you to go to the top of the page if you click on it-->

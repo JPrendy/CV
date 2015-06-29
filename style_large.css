@@ -48,12 +48,16 @@ box-sizing: border-box
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
 #7E7EE5
+
+   
 	}
 
 #headmenu{
   font-size:10px;
    background-color: white;
-   width:100%
+   width:100%;
+   padding-bottom:5px;
+     border-bottom-style: inset;
   }
 
 
@@ -68,15 +72,20 @@ color: #white;
   float:right;
 width:15%;
 
- background-color: #3498db;
+ bbackground-color: #3498db;
+ color:black;
+  background-color: #FAFAFF;
     border-radius: 10px;
     padding: 5px;
+        border-style:solid;
 
     min-height:100%;
    
-    color: #FFF;
+    ccolor: #FFF;
  
 }
+
+
 
 
 #sidemenu2{
@@ -135,7 +144,7 @@ width:100%;
    width:85%;
    background-color:#FAFAFF;
      font-size:130.5%;
-	
+	padding-right:35px;
 }
 
 #mainmenuproject{
@@ -277,7 +286,7 @@ width:100px;
 #important
 {
 width:15%;
-padding-left:25px;
+padding-left:22px;
 text-align:center;
 }
 
@@ -365,4 +374,11 @@ font-size:110%;
 
 #interests{
 font-size:110%;
+}
+
+
+.toggle{
+      font-size: 30px;
+    
+    font-weight: bold;
 }
