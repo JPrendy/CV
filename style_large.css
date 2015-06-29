@@ -370,3 +370,10 @@ font-size:110%;
 #interests{
 font-size:110%;
 }
+
+
+.toggle{
+      font-size: 30px;
+    color:blue;
+    font-weight: bold;
+}

@@ -71,6 +71,15 @@ $(document).ready(function(){
 });
 </script>
 
+<!--this is used to toggle the font size of the main menu-->
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#mainmenu").toggleClass("toggle");
+    });
+});
+</script>
 
 
 
@@ -304,6 +313,10 @@ I have a keen interest in tennis and table tennis. I Begun learning Android Deve
  
  
  </table>
+</div>
+
+<div id="toggle">
+<button>Toggle class</button>
 </div>
 
 <!--this side menu allows you to go to the top of the page if you click on it-->
