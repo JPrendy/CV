@@ -74,6 +74,15 @@ h2 {
  
 }
 
+#sidemenu3{
+   padding-top: 0px;
+  background-color:#FAFAFF;
+  float:left;
+ width:100%;
+   ..border-top-style: inset;
+ 
+}
+
 .wrapper{
  font-size: 2.0 em;
 
