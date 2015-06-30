@@ -19,11 +19,8 @@ box-sizing: border-box
  float:right;
       width: 90%;
 	font-family:arial;
-    background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
-    background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
-    background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, white); /* Standard syntax (must be last) */
-	
+  
+	 background-color:#FAFAFF;
 	text-align: center;
 	
 }
@@ -121,15 +118,16 @@ width:80%;
  padding: 0.4em;
  margin: 0 auto;
  width: 100%;
- background-color:white;
-
+ bbackground-color:white;
+ background-color:#FAFAFF;
  }
  
  #abovefooter
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:white;
+bbackground-color:white;
+ background-color:#FAFAFF;
 color:white;
 width:100%;
  margin-bottom:10px;
@@ -139,7 +137,8 @@ width:100%;
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:white;
+bbackground-color:white;
+ background-color:#FAFAFF;
 color: #white;
 width:100%;
 }
@@ -236,17 +235,17 @@ text-align: center;
 }
 #row2-2{
 
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 40px;
   
 }
 #row3-2{
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 #row4-2{
   padding-top: 90px;
-  padding-bottom: 115px;
+  padding-bottom: 95px;
 }
 
 
