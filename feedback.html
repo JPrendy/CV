@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-
-
-
-<!--<link rel="stylesheet" href="w3.css">-->
-
+<meta charset="UTF-8">
 
 
 
@@ -30,8 +25,27 @@ and (max-width:299px)"
 href="style_150.css">
 
 
+<!--this is the addition of jQuery slider to show/hide the quicklinks-->
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<!--the addition of jquery ui---->
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+<!--this is used to animate my logo-->
+
+<script>
+$(document).ready(function(){
+     // this block will be executed  after DOM loaded
+        var div = $("#animate");  
+        div.animate({left: '5%'}, "slow");
+        div.animate({fontSize: '4em'}, "slow");
+
+});
+</script>
 
 <head>
 <title> Feedback Form</title>
@@ -45,13 +59,18 @@ href="style_150.css">
 <a name="return"/>
 <a name="home"/>
 
+
+
+<!--this is the one of the main classes, which is the header-->
 <div class="header">
 
+<!--this is where the title is stored-->
 <div id="title">
-<center><a href="index.html" ><font id="name"> James Maurice Prendergast</font></center></a>
+<a href="index.html" id="name"> James Maurice Prendergast</a>
 </div>
 
-<div id="logo"></div>
+<!--this is for the id that animates with jQuery-->
+<div id="animate" style=";position:absolute;">JP</div>
 
 </div>
 

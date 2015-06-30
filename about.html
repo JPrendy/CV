@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-
-
-
-<!--<link rel="stylesheet" href="w3.css">-->
-
+<meta charset="UTF-8">
 
 
 
@@ -29,6 +24,33 @@ href="style_300.css">
 and (max-width:299px)"
 href="style_150.css">
 
+
+
+
+<!--this is the addition of jQuery slider to show/hide the quicklinks-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!--the addition of jquery ui---->
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+<!--this is used to animate my logo-->
+
+<script>
+$(document).ready(function(){
+     // this block will be executed  after DOM loaded
+        var div = $("#animate");  
+        div.animate({left: '5%'}, "slow");
+        div.animate({fontSize: '4em'}, "slow");
+
+});
+</script>
+
+
+
 <head>
 <title>About Us</title>
 <link rel="icon" href="j4.png" type="image" sizes="16x16">
@@ -41,13 +63,18 @@ href="style_150.css">
 <a name="return"/>
 <a name="home"/>
 
+
+
+<!--this is the one of the main classes, which is the header-->
 <div class="header">
 
+<!--this is where the title is stored-->
 <div id="title">
-<center><a href="index.html" ><font id="name"> James Maurice Prendergast</font></center></a>
+<a href="index.html" id="name"> James Maurice Prendergast</a>
 </div>
 
-<div id="logo"></div>
+<!--this is for the id that animates with jQuery-->
+<div id="animate" style=";position:absolute;">JP</div>
 
 </div>
 
@@ -97,7 +124,7 @@ href="style_150.css">
 
  <h3><font id="about">About</font></h3>
  <center>
-     <a href="about.html" > <img src= "info.png" id="aboutimage" alt="banner";></a>
+     <a href="about.html" > <img src= "images/info.png" id="aboutimage" alt="banner";></a>
 	 </center
  </td> 
  </tr> 
@@ -106,7 +133,7 @@ href="style_150.css">
  <td id="row2">
 
   <h3><font id="feedback">Feedback</font></h3>
-      <a href="feedback.html"> <img src= "paper.png" id="feedbackimage" alt="banner";></a>
+      <a href="feedback.html"> <img src= "images/paper.png" id="feedbackimage" alt="banner";></a>
  </td>
  </tr>
  
@@ -114,14 +141,14 @@ href="style_150.css">
  <td id="row3">
 
   <h3><font id="contact">Contact</font></h3>
-        <a href="contact.html"> <img src= "contact.png" id="contactimage" alt="banner"></a>
+        <a href="contact.html"> <img src= "images/contact.png" id="contactimage" alt="banner"></a>
  </td>
  </tr>
   <tr > 
  <td id="row4">
 
    <h3><font id="blog">Blog</font></h3>
-    <a href="https://jamesmauriceprendergast.wordpress.com/"> <img src= "blogicon2.png" id="blogimage" alt="banner" ></a>
+    <a href="https://jamesmauriceprendergast.wordpress.com/"> <img src= "images/blogicon2.png" id="blogimage" alt="banner" ></a>
  </td>
  </tr>
  
@@ -135,7 +162,7 @@ href="style_150.css">
 <br></br>
 <center> <a href="#return"><font id="ok">Return to the top of the page</font></a></center>
 <br></br>
- <center> <a href="#home"><img src="up2.png"  id="up"width="100" height="100"></a></center>
+ <center> <a href="#home"><img src="images/up2.png"  id="up"width="100" height="100"></a></center>
 
 </div>
  
