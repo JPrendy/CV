@@ -142,7 +142,9 @@ a:visited {
    width:100%;
    background-color:#FAFAFF;
    font-size:100.5%;
-}
+   padding-left:1px;
+    padding-right:1px;
+} 
 
 #mainmenuproject{
   float: left;
@@ -217,3 +219,10 @@ width:60px;
 }
 
 
+.toggle{
+    display: none;  
+}
+
+#toggle{
+  display: none;
+}
