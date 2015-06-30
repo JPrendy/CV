@@ -100,6 +100,17 @@ width:15%;
  
 }
 
+
+#sidemenu3{
+   padding-top: 0px;
+  background-color:#FAFAFF;
+  float:left;
+ width:85%;
+   ..border-top-style: inset;
+ 
+}
+
+
 #link{
 width:80%;
 
