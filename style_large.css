@@ -166,7 +166,8 @@ width:100%;
 
   float: left;
    width:85%;
-   background-color:yellow;
+   bbackground-color:yellow;
+    background-color:#FAFAFF;
    padding-top:20px;
   
 }
@@ -190,7 +191,7 @@ border-radius: 10px;
 }
 
  #table3{
-   background-color:white;
+   background-color:white ;
    border-radius: 10px;
     border: 1px solid black;
 	
@@ -429,3 +430,5 @@ font-size:20px;
         border-style:solid;
 		  background-color: #F4F4F5;
 }
+
+
