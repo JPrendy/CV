@@ -102,7 +102,7 @@ width:15%;
    padding-top: 0px;
   background-color:#FAFAFF;
   float:left;
- width:85%;
+ width:100%;
    ..border-top-style: inset;
  
 }
@@ -319,6 +319,12 @@ font-size:30px;
 width:100px;
  height:100px;
 }
+
+#up2{
+width:80px;
+ height:80px;
+}
+
 
 #important
 {
