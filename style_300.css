@@ -142,7 +142,9 @@ a:visited {
    width:100%;
    background-color:#FAFAFF;
    font-size:100.5%;
-}
+   padding-left:1px;
+    padding-right:1px;
+} 
 
 #mainmenuproject{
   float: left;
@@ -161,10 +163,11 @@ font-size:100%;
 }
 
 #CVlink{
-font-size:32px;
+font-size:34px;
 }
 #Plink{
-font-size:32px;
+font-size:34px;
+
 }
 
 #cv{
@@ -217,3 +220,10 @@ width:60px;
 }
 
 
+.toggle{
+    display: none;  
+}
+
+#toggle{
+  display: none;
+}

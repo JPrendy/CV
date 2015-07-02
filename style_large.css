@@ -166,7 +166,8 @@ width:100%;
 
   float: left;
    width:85%;
-   background-color:yellow;
+   bbackground-color:yellow;
+    background-color:#FAFAFF;
    padding-top:20px;
   
 }
@@ -190,7 +191,7 @@ border-radius: 10px;
 }
 
  #table3{
-   background-color:white;
+   background-color:white ;
    border-radius: 10px;
     border: 1px solid black;
 	
@@ -230,22 +231,22 @@ text-align: center;
 
 #row1-2{
    
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   
 }
 #row2-2{
 
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   
 }
 #row3-2{
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 #row4-2{
-  padding-top: 90px;
-  padding-bottom: 95px;
+  padding-top: 60px;
+  padding-bottom: 65px;
 }
 
 
@@ -429,3 +430,5 @@ font-size:20px;
         border-style:solid;
 		  background-color: #F4F4F5;
 }
+
+

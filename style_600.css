@@ -50,17 +50,26 @@ width:100%;
 }
 
 
-#sidemenu{
-  float:left;
- width:15%;
- 
-  background-color: #3498db;
-    border-radius: 10px;
-    padding: 0px;
 
+
+#sidemenu {
+  float:right;
+width:15%;
+
+ bbackground-color: #3498db;
+ color:black;
+ bbackground-color: #BCBCBC;
+  background-color: #F4F4F5;
+    border-radius: 10px;
+    padding: 5px;
+        border-style:solid;
+
+    min-height:100%;
    
-   
-    color: #FFF;
+    ccolor: #FFF;
+	
+	
+	
  
 }
 
