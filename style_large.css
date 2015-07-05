@@ -22,7 +22,7 @@ box-sizing: border-box
 	text-align: center;
 }
  
- /*this is the animation css for "JP" in the header*/
+/*this is the animation css for "JP" in the header*/
 #animate{
     width: 10%;
 	height: 100px;
@@ -127,16 +127,17 @@ color: #white;
 width:100%;
 }
 
-
+/*this is the css where most of the body of text goes for index.hmtl*/
 #mainmenu{
   float: left;
-   width:85%;
-   background-color:#FAFAFF;
-     font-size:130.5%;
-	padding-right:35px;
-		padding-left:35px;
+  width:85%;
+  background-color:#FAFAFF;
+  font-size:130.5%;
+  padding-right:35px;
+  padding-left:35px;
 }
 
+/*this is the css where most of the body of text goes for project.hmtl*/
 #mainmenuproject{
 
   float: left;
@@ -147,7 +148,7 @@ width:100%;
   
 }
 
-
+/*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
 height:400px;
@@ -155,70 +156,72 @@ border-radius: 10px;
 }
 
 
-
- #table2{
-  
-   border-radius: 10px;
-    border: 1px solid black;
-	
-	
-	   background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
+/*this is the css table for the above footer which has the bar to the other links*/
+#table2{
+border-radius: 10px;
+border: 1px solid black;
+background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
 }
 
- #table3{
-   background-color:white ;
-   border-radius: 10px;
-    border: 1px solid black;
-	
+/*this is the css table for the github repositary link*/
+#table3{
+background-color:white ;
+border-radius: 10px;
+border: 1px solid black;	
 }
 
+/*this is the css for the table for the navigation bar*/
 #style2{
 text-align: center;
-
 }
 
-#row0{
- 
-  padding-bottom: 140px;
-  width:15%;
+/*this is the css table where I have the table for the Quick links */
+#row0{ 
+padding-bottom: 140px;
+width:15%;
 }
 
-#row1{
-   
-  padding-bottom: 40px;
-  
+/*this is a css table where the about link is stored*/
+#row1{  
+padding-bottom: 40px;  
 }
+
+/*this is a css table where the feedback link is stored*/
 #row2{
-
-  padding-top: 120px;
-  padding-bottom: 40px;
-  
+padding-top: 120px;
+padding-bottom: 40px;  
 }
+
+/*this is a css table where the contact link is stored*/
 #row3{
   padding-top: 120px;
   padding-bottom: 40px;
 }
+
+/*this is a css table where the blog link is stored*/
 #row4{
   padding-top: 120px;
   padding-bottom: 115px;
 }
 
-
+/*this is a css table where the about link is stored with smaller padding in the other pages*/
 #row1-2{
-   
   padding-bottom: 30px;
-  
 }
-#row2-2{
 
+/*this is a css table where the feedback link is stored with smaller padding in the other pages*/
+#row2-2{
   padding-top: 50px;
-  padding-bottom: 30px;
-  
+  padding-bottom: 30px;  
 }
+
+/*this is a css table where the contact link is stored with smaller padding in the other pages*/
 #row3-2{
   padding-top: 50px;
   padding-bottom: 30px;
 }
+
+/*this is a css table where the blog link is stored with smaller padding in the other pages*/
 #row4-2{
   padding-top: 60px;
   padding-bottom: 65px;
@@ -226,17 +229,19 @@ text-align: center;
 
 
 
-
+/*this is the css that changes colour with the github repository table link*/
 #table3:hover {
     background-color: #0099cc;
 	 background: #0099cc;
 }
 
+/*this is the css that changes colour with cv header table*/
 #cvtd:hover {
     background-color: #0099cc;
 	 background: #0099cc;
 }
 
+/*this is the css that changes colour with project header table*/
 #ptd:hover {
     background-color: #0099cc;
 	 background: #0099cc;
@@ -253,9 +258,9 @@ a:visited {
 	color:black;
 }
 
+/*this is for a hyperlink which has an underline when you hover it*/
 #a:hover {
-    text-decoration: underline;
-	
+    text-decoration: underline;	
 }
 
 #a:active {
