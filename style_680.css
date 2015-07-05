@@ -7,7 +7,7 @@ box-sizing: border-box
 }
 
 .header{
-
+   background-color:yellow;
  	height: 100px;
 }
  
@@ -20,13 +20,13 @@ box-sizing: border-box
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
+    background-color: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
 }
 
  
 #title{
 
-   	height: 100px;
+   	height: 90px;
  float:right;
       width: 90%;
 	font-family:arial;
@@ -220,14 +220,13 @@ font-size:100%;
 }
 
 #CVlink{
-font-size:220%;
+font-size:260%;
 }
 #Plink{
-font-size:220%;
+font-size:260%;
 }
 
 #name{
-padding-left:35px;
 font-size:42px;
 }
 

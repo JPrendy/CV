@@ -1,3 +1,4 @@
+/* this is a css style for all the webpage */
 *{
 padding: 0;
 margin: 0;
@@ -6,25 +7,22 @@ margin: 0;
 box-sizing: border-box
 }
 
-
+/* this is a css style for the header class */
 .header{
-
   	height: 100px;
 }
 
-
+/*this is the css for the main title "James Maurice Prendergast"*/
 #title{
-
    	height: 100px;
- float:right;
-      width: 90%;
+    float:right;
+    width: 90%;
 	font-family:arial;
-  
-	 background-color:#FAFAFF;
+	background-color:#FAFAFF;
 	text-align: center;
-	
 }
  
+ /*this is the animation css for "JP" in the header*/
 #animate{
     width: 10%;
 	height: 100px;
@@ -32,125 +30,102 @@ box-sizing: border-box
 }   
 
 
-
-
+/*this is the css for the navigation bar with curriculum vitae and projects*/
 #header2{
   border-radius: 10px;
- height:70px;
-   width:100%;
-
+  height:70px;
+  width:100%;
 
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
-#7E7EE5
-
-   
+  
 	}
 
-#headmenu{
-  font-size:10px;
-   background-color: white;
-   width:100%;
-   padding-bottom:5px;
-     border-bottom-style: inset;
-  }
+/*this is the css where I include this webpage header and email and linkedin details*/	
 
 
+  #headmenu {
+  float: left;
+  width:100%;
+  font-size:80.5%;
+  background-color:#FAFAFF;
+  padding-bottom:5px;
+  border-bottom-style: inset;
+}
+
+
+/*this is the css style for the body of the webpage*/
 body{
 font-size:112.5%;
 font-family:Times New Roman;
 color: #white;
 }
 
-
+/*this is the css for sidemenu on the right that includes the longer padding*/
 #sidemenu {
   float:right;
-width:15%;
-
- bbackground-color: #3498db;
- color:black;
- bbackground-color: #BCBCBC;
+  width:15%;
+  color:black;
   background-color: #F4F4F5;
-    border-radius: 10px;
-    padding: 5px;
-        border-style:solid;
+  border-radius: 10px;
+  padding: 5px;
+       
+	   border-style:solid;
 
-    min-height:100%;
-   
-    ccolor: #FFF;
-	
-	
-	
- 
+  min-height:100%;
 }
 
 
-
-
+/*this is the css that brings you to the top of the page*/
 #sidemenu2{
-   padding-top: 180px;
+ padding-top: 180px;
  background-color:#FAFAFF;
-  float:right;
+ float:right;
  width:15%;
- 
 }
 
-
+/*this is the return to the top of the page that takes 100% width on feedback,about */
 #sidemenu3{
-   padding-top: 0px;
+  padding-top: 0px;
   background-color:#FAFAFF;
   float:left;
- width:100%;
+  width:100%;
    ..border-top-style: inset;
  
 }
 
 
-#link{
-width:80%;
-
-}
-
+/*this is the class that affects the overall look of the website*/
 .wrapper{
  font-size: 2.0 em;
  padding: 0.4em;
  margin: 0 auto;
  width: 100%;
- bbackground-color:white;
  background-color:#FAFAFF;
  }
  
+ /*this is the css that has the bar that allows you to navigate to other pages at the bottom of the screen*/
  #abovefooter
 {
 font-size:112.5%;
 font-family:Times New Roman;
-bbackground-color:white;
- background-color:#FAFAFF;
+background-color:#FAFAFF;
 color:white;
 width:100%;
- margin-bottom:10px;
+margin-bottom:10px;
 }
  
+ /*this is the css where I keep all the all right reserved and copyright*/
 .footer
 {
 font-size:112.5%;
 font-family:Times New Roman;
-bbackground-color:white;
- background-color:#FAFAFF;
+background-color:#FAFAFF;
 color: #white;
 width:100%;
 }
-
-#headmenu {
-  float: left;
-   width:100%;
-   font-size:80.5%;
-      background-color:#FAFAFF;
-  
-}
-
 
 
 #mainmenu{
