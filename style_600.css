@@ -20,7 +20,7 @@ box-sizing: border-box
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4747DA,#5E5EDF); /* Standard syntax (must be last) */
+  background-color:#FAFAFF;
 }
 
  
@@ -58,8 +58,9 @@ width:100%;
 	
 
 #sidemenu2{
- display: none;
- 
+ padding-top:0px;
+  width:100%;
+
 }
 
 #link{
@@ -72,7 +73,7 @@ width:80%;
  padding: 0.4em;
  margin: 0 auto;
  width: 100%;
- background-color:white;
+ background-color:#FAFAFF;
  }
  
  
@@ -80,8 +81,7 @@ width:80%;
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:white;
-color: white;
+ background-color:#FAFAFF;
 width:100%;
 }
 
@@ -90,8 +90,7 @@ width:100%;
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:white;
-color: #white;
+ background-color:#FAFAFF;
 width:100%;
 }
 

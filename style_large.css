@@ -127,16 +127,17 @@ color: #white;
 width:100%;
 }
 
-
+/*this is the css where most of the body of text goes for index.hmtl*/
 #mainmenu{
   float: left;
-   width:85%;
-   background-color:#FAFAFF;
-     font-size:130.5%;
-	padding-right:35px;
-		padding-left:35px;
+  width:85%;
+  background-color:#FAFAFF;
+  font-size:130.5%;
+  padding-right:35px;
+  padding-left:35px;
 }
 
+/*this is the css where most of the body of text goes for project.hmtl*/
 #mainmenuproject{
 
   float: left;
@@ -147,7 +148,7 @@ width:100%;
   
 }
 
-
+/*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
 height:400px;
@@ -155,41 +156,36 @@ border-radius: 10px;
 }
 
 
-
- #table2{
-  
-   border-radius: 10px;
-    border: 1px solid black;
-	
-	
-	   background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
+/*this is the css table for the above footer which has the bar to the other links*/
+#table2{
+border-radius: 10px;
+border: 1px solid black;
+background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
 }
 
- #table3{
-   background-color:white ;
-   border-radius: 10px;
-    border: 1px solid black;
-	
+/*this is the css table for the github repositary link*/
+#table3{
+background-color:white ;
+border-radius: 10px;
+border: 1px solid black;	
 }
 
+/*this is the css for the table for the navigation bar*/
 #style2{
 text-align: center;
-
 }
 
-#row0{
- 
-  padding-bottom: 140px;
-  width:15%;
+/*this is the css where I have the table for the Quick links */
+#row0{ 
+padding-bottom: 140px;
+width:15%;
 }
 
-#row1{
-   
-  padding-bottom: 40px;
-  
+#row1{  
+padding-bottom: 40px;  
 }
+
 #row2{
-
   padding-top: 120px;
   padding-bottom: 40px;
   

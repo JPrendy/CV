@@ -13,7 +13,8 @@ box-sizing: border-box
     background-color: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
     background-color: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, white); /* Standard syntax (must be last) */
+
+	 background-color:#FAFAFF;
 }
  
 
@@ -43,15 +44,14 @@ color: #white;
  font-size: 2.0 em;
  margin: 0 auto;
  width: 100%;
- background-color:white;
+ background-color:#FAFAFF;
  }
  
   #abovefooter
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:blue;
-color: #blue;
+ background-color:#FAFAFF;
 width:100%;
 }
  
@@ -59,8 +59,7 @@ width:100%;
 {
 font-size:112.5%;
 font-family:Times New Roman;
-background-color:blue;
-color: #blue;
+ background-color:#FAFAFF;
 width:100%;
 }
 
