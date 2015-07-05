@@ -51,32 +51,14 @@ width:100%;
 
 
 
-#sidemenu {
-  float:right;
-width:15%;
 
- bbackground-color: #3498db;
- color:black;
- bbackground-color: #BCBCBC;
-  background-color: #F4F4F5;
-    border-radius: 10px;
-    padding: 5px;
-        border-style:solid;
-
-    min-height:100%;
-   
-    ccolor: #FFF;
-	
-	
-	
- 
+#sidemenu{
+  display: none;
 }
+	
 
 #sidemenu2{
-   padding-top: 1200px;
-  background-color: White;
-  float:left;
- width:15%;
+ display: none;
  
 }
 
@@ -122,7 +104,7 @@ width:100%;
 
 #mainmenu{
   float: left;
-   width:85%;
+   width:100%;
    background-color:#FAFAFF;
     font-size:130.5%;
 }
@@ -343,4 +325,8 @@ font-size:80%;
 
 #interests{
 font-size:80%;
+}
+
+#toggle{
+display:none;
 }
