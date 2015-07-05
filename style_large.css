@@ -133,8 +133,8 @@ width:100%;
   width:85%;
   background-color:#FAFAFF;
   font-size:130.5%;
-  padding-right:35px;
-  padding-left:35px;
+  padding-right:30px;
+  padding-left:30px;
 }
 
 /*this is the css where most of the body of text goes for project.hmtl*/
@@ -295,7 +295,7 @@ font-size:30px;
 font-size:66px;
 }
 
-
+/*this is the css for the font size of "return to the top of the page"*/
 #ok{
 font-size:30px;
 }

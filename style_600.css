@@ -106,6 +106,8 @@ width:100%;
    width:100%;
    background-color:#FAFAFF;
     font-size:130.5%;
+	  padding-right:10px;
+  padding-left:10px;
 }
 
 #mainmenuproject{
@@ -197,14 +199,15 @@ font-size:100%;
 
 
 #link2{
-font-size:100%;
+font-size:130%;
 }
 
 #CVlink{
-font-size:220%;
+
+font-size:260%;
 }
 #Plink{
-font-size:220%;
+font-size:260%;
 }
 
 #name{
