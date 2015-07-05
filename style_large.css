@@ -44,13 +44,17 @@ box-sizing: border-box
 	}
 
 /*this is the css where I include this webpage header and email and linkedin details*/	
-#headmenu{
-   font-size:10px;
-   background-color: white;
-   width:100%;
-   padding-bottom:5px;
-   border-bottom-style: inset;
-  }
+
+
+  #headmenu {
+  float: left;
+  width:100%;
+  font-size:80.5%;
+  background-color:#FAFAFF;
+  padding-bottom:5px;
+  border-bottom-style: inset;
+}
+
 
 /*this is the css style for the body of the webpage*/
 body{
@@ -122,15 +126,6 @@ background-color:#FAFAFF;
 color: #white;
 width:100%;
 }
-
-#headmenu {
-  float: left;
-   width:100%;
-   font-size:80.5%;
-      background-color:#FAFAFF;
-  
-}
-
 
 
 #mainmenu{
