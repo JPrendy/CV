@@ -46,7 +46,7 @@ box-sizing: border-box
 /*this is the css where I include this webpage header and email and linkedin details*/	
 
 
-  #headmenu {
+#headmenu {
   float: left;
   width:100%;
   font-size:80.5%;
@@ -231,70 +231,73 @@ padding-bottom: 40px;
 
 /*this is the css that changes colour with the github repository table link*/
 #table3:hover {
-    background-color: #0099cc;
-	 background: #0099cc;
+background-color: #0099cc;
+background: #0099cc;
 }
 
 /*this is the css that changes colour with cv header table*/
 #cvtd:hover {
-    background-color: #0099cc;
-	 background: #0099cc;
+background-color: #0099cc;
+background: #0099cc;
 }
 
 /*this is the css that changes colour with project header table*/
 #ptd:hover {
-    background-color: #0099cc;
-	 background: #0099cc;
+background-color: #0099cc;
+background: #0099cc;
 }
 
-
+/*this is for all hyper links */
 a:link {
-    text-decoration: none;
-	color:black;
+text-decoration: none;
+color:black;
 }
 
+/*this is for all hyper links that are visited*/
 a:visited {
-    text-decoration: none;
-	color:black;
+text-decoration: none;
+color:black;
 }
 
-/*this is for a hyperlink which has an underline when you hover it*/
+/*this is for the id "a" hyper link which has an underline when you hover it*/
 #a:hover {
-    text-decoration: underline;	
+text-decoration: underline;	
 }
 
+/*this is for the id "a" hyper link which has an underline when they are active*/
 #a:active {
     text-decoration: underline;
 }
 
+/*this is the css for id that deals with contact and linkedin font size*/
 #link2{
 font-size:25px;
 text-align: center;
 }
 
-
+/*this is the css which deals with "curriculum vitae" navigation header font*/
 #CVlink{
 font-size:57px;
 }
+
+/*this is the css which deals with "projects" navigation header font*/
 #Plink{
 font-size:57px;
 }
 
-#h{
-font-size:100%;
-}
-
+/*this is the css that deals with the different header of each webpage fontsize*/
 #cv{
 font-size:30px;
 }
-
+ 
+/* this is the css that deals the font size of "James Maurice Prendergast" */
 #name{
 font-size:66px;
 }
 
+
 #ok{
 font-size:30px;
-
 }
 
 #up{
@@ -417,6 +420,8 @@ font-size:20px;
     padding: 5px;
         border-style:solid;
 		  background-color: #F4F4F5;
+		  padding-top:10px;
+		   padding-bottom:10px;
 }
 
 

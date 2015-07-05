@@ -167,16 +167,17 @@ float:left;
 #blogimage{
 float:left;
  margin-top:40px;
- width:105px;
- height:105px;
+ width:115px;
+ height:115px;
+ margin-left:-10px
 }
 
 
 #aboutimage{
 float:left;
  margin-top:50px;
- width:105px;
- height:105px;
+ width:95px;
+ height:95px;
 }
 
 #contactimage{
