@@ -39,7 +39,9 @@ box-sizing: border-box
     width: 5%;
 	height: 100px;
      float:left;
+	 margin-left:-15px;
 }   
+
 
 body{
 font-size:112.5%;
@@ -112,8 +114,8 @@ width:100%;
 
 #mainmenuproject{
   float: left;
-   width:85%;
-   background-color:yellow;
+   width:100%;
+
    padding-top:20px;
 }
 
@@ -331,4 +333,16 @@ font-size:80%;
 
 #toggle{
 display:none;
+}
+
+
+#ok{
+font-size:25px;
+font-weight: bold;
+}
+
+#up{
+margin-top:-25px;
+width:70px;
+ height:70px;
 }
