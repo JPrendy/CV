@@ -7,7 +7,6 @@ box-sizing: border-box
 }
 
 .header{
-   background-color:yellow;
  	height: 100px;
 }
  
@@ -57,7 +56,7 @@ width:15%;
 
  bbackground-color: #3498db;
  color:black;
- bbackground-color: #BCBCBC;
+
   background-color: #F4F4F5;
     border-radius: 10px;
     padding: 5px;
@@ -65,7 +64,6 @@ width:15%;
 
     min-height:100%;
    
-    ccolor: #FFF;
 	
 	
 	
@@ -73,7 +71,7 @@ width:15%;
 }
 
 #sidemenu2{
-   padding-top: 1200px;
+  padding-top: 1200px;
  background-color:#FAFAFF;
   float:left;
  width:15%;

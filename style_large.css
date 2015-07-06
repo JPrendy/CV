@@ -17,7 +17,11 @@ box-sizing: border-box
    	height: 100px;
     float:right;
     width: 90%;
-	font-family:arial;
+	
+	
+	font-family:merriweather;
+	
+	
 	background-color:#FAFAFF;
 	text-align: center;
 }
@@ -300,17 +304,19 @@ font-size:66px;
 font-size:30px;
 }
 
+/*this is css id for the up arrow image for index and projects*/
 #up{
 width:100px;
  height:100px;
 }
 
+/*this is css id for the up arrow image for feedback,contact and about*/
 #up2{
 width:80px;
  height:80px;
 }
 
-
+/*this is the css which puts the table from the side menu that deals with padding*/
 #important
 {
 width:15%;
@@ -318,56 +324,61 @@ padding-left:22px;
 text-align:center;
 }
 
+/*this is for all the lists in my webpage*/
  li {
-    list-style-type: none;
-	ffont-size:24px;
-		font-size:100%;
-	margin-top:20px;
+ list-style-type: none;
+ font-size:100%;
+ margin-top:20px;
 }
 
+/*this is for the title "quicklink" in the sidemenu*/
 #quicklink{
  font-size:30px;
- 
 }
 
+/*this is for the title "blog in the sidemenu*/
 #blog{
  font-size:30px;
 }
 
+/*this is for the title "about" in the sidemenu*/
 #about{
  font-size:30px;
 }
 
+/*this is for the title "feedback" in the sidemenu*/
 #feedback{
  font-size:30px;
 }
 
+/*this is for the title "contact" in the sidemenu*/
 #contact{
  font-size:30px;
 }
 
-
+/*this is for the "blog" image in the sidemenu*/
 #blogimage{
  margin-top:40px;
  width:125px;
  height:125px;
 }
 
-
+/*this is for the "about" image in the sidemenu*/
 #aboutimage{
  margin-top:50px;
  width:95px;
  height:95px;
 }
 
+/*this is for the "contact" image in the sidemenu*/
 #contactimage{
-
  margin-top:50px;
  width:95px;
  height:95px;
 }
 
 
+/*this is for the "feedback" image in the sidemenu*/
 #feedbackimage{
  margin-top:50px;
  width:95px;
@@ -375,53 +386,58 @@ text-align:center;
 }
 
 
-
-
-
-
+/*this is the id for the "education" font for the hyper link*/
 #education{
 font-size:110%;
 }
 
+/*this is the id for the "employment" font for the hyper link*/
 #employment{
 font-size:110%;
 }
 
+/*this is the id for the "skills" font for the hyper link*/
 #skills{
 font-size:110%;
 }
 
+/*this is the id for the "personal qualities" font for the hyper link*/
 #personalqualities{
 font-size:110%;
 }
 
-
+/*this is the id for the "achievements" font for the hyper link*/
 #achievements{
 font-size:110%;
 }
 
+/*this is the id for the "interests" font for the hyper link*/
 #interests{
 font-size:110%;
 }
 
 
+/*this is the class that affects the main menu when it's clicked*/
 .toggle{
       font-size: 30px;
-    
-    font-weight: bold;
+      font-weight: bold;
 }
 
+/*this is for the toggle font box*/
 #toggle{
 width:15%;
 color:black;
 float:right;
 font-size:20px;
-  border-radius: 10px;
-    padding: 5px;
-        border-style:solid;
-		  background-color: #F4F4F5;
-		  padding-top:10px;
-		   padding-bottom:10px;
+border-radius: 10px;
+padding: 5px;
+border-style:solid;
+background-color: #F4F4F5;
+padding-top:10px;
+padding-bottom:10px;
 }
 
-
+#googleform{
+width:100%; 
+height:1050px;
+}
