@@ -45,11 +45,9 @@ box-sizing: border-box
     background-color: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#5E5EDF,#3366FF); /* Standard syntax (must be last) */
   
-	}
+}
 
 /*this is the css where I include this webpage header and email and linkedin details*/	
-
-
 #headmenu {
   float: left;
   width:100%;
@@ -270,7 +268,7 @@ text-decoration: underline;
 
 /*this is for the id "a" hyper link which has an underline when they are active*/
 #a:active {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 /*this is the css for id that deals with contact and linkedin font size*/
