@@ -7,7 +7,7 @@ margin: 0;
 box-sizing: border-box
 }
 
-/* this is a css style for the header class */
+/* this is a css style for the header class which include the id "animate" and "title" */
 .header{
 height: 100px;
 }
