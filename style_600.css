@@ -93,141 +93,163 @@ background-color:#FAFAFF;
 width:100%;
 }
 
+/*this is the css where I include this webpage header and email and linkedin details*/	
 #headmenu {
- float: left;
-   width:100%;
-   font-size:80.5%;
+float: left;
+width:100%;
+font-size:80.5%;
 }
 
-
+/*this is the css where most of the body of text goes for index.hmtl*/
 #mainmenu{
-  float: left;
-   width:100%;
-   background-color:#FAFAFF;
-    font-size:130.5%;
-	  padding-right:10px;
-  padding-left:10px;
+float: left;
+width:100%;
+background-color:#FAFAFF;
+font-size:130.5%;
+padding-right:10px;
+padding-left:10px;
 }
 
+/*this is the css where most of the body of text goes for project.hmtl*/
 #mainmenuproject{
-  float: left;
-   width:100%;
-
-   padding-top:20px;
+float:left;
+width:100%;
+padding-top:20px;
 }
 
-
+/*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
 height:400px;
 border-radius: 10px;
 }
 
- #table2{
-  
-   border-radius: 10px;
-    border: 1px solid black;
+/*this is the css table for the above footer which has the bar to the other links*/
+#table2{
+border-radius:10px;
+border:1px solid black;
 }
 
- #table3{
-   background-color:white;
-   border-radius: 10px;
-    border: 1px solid black;
-	
+/*this is the css table for the github repositary link*/
+#table3{
+background-color:white;
+border-radius:10px;
+border:1px solid black;	
 }
 
-
+/*this is the css table where I have the table for the Quick links */
 #row0{
-  width:15%;
-  padding-bottom: 150px;
-  
+width:15%;
+padding-bottom: 150px;  
 }
 
+/*this is a css table where the about link is stored*/
 #row1{
-   
-  padding-bottom: 50px;
-  
+padding-bottom: 50px;  
 }
+
+/*this is a css table where the feedback link is stored*/
 #row2{
-
-  padding-top: 150px;
-  padding-bottom: 50px;
-  
+padding-top: 150px;
+padding-bottom: 50px;
 }
+
+/*this is a css table where the contact link is stored*/
 #row3{
-  padding-top: 150px;
-  padding-bottom: 50px;
+padding-top: 150px;
+padding-bottom: 50px;
 }
+
+/*this is a css table where the blog link is stored*/
 #row4{
-  padding-top: 150px;
-  padding-bottom: 125px;
+padding-top: 150px;
+padding-bottom: 125px;
 }
 
+/*this is the css that changes colour with the github repository table link*/
 #table3:hover {
-    background-color: #0099cc;
-	 background: #0099cc;
+background-color: #0099cc;
+background: #0099cc;
 }
 
- td:hover {
-    background-color: #0099cc;
-	 background: #0099cc;
+/*this is the css that changes colour with cv header table*/
+#cvtd:hover {
+background-color: #0099cc;
+background: #0099cc;
 }
 
+/*this is the css that changes colour with project header table*/
+#ptd:hover {
+background-color: #0099cc;
+background: #0099cc;
+}
 
+/*this is for all hyper links */
 a:link {
-    text-decoration: none;
-	color:black;
+text-decoration: none;
+color:black;
 }
 
+/*this is for all hyper links that are visited*/
 a:visited {
-    text-decoration: none;
-	color:black;
+text-decoration: none;
+color:black;
 }
 
+/*this is for the id "a" hyper link which has an underline when you hover it*/
 #a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
+/*this is for the id "a" hyper link which has an underline when they are active*/
 #a:active {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
+/*this is the css for the font size of "GITHUB REPOSITORY"*/
 #h{
 font-size:100%;
 }
 
-
+/*this is the css for id that deals with contact and linkedin font size*/
 #link2{
 font-size:130%;
 }
 
+/*this is the css which deals with "curriculum vitae" navigation header font*/
 #CVlink{
-
 font-size:260%;
 }
+
+/*this is the css which deals with "projects" navigation header font*/
 #Plink{
 font-size:260%;
 }
 
+/* this is the css that deals the font size of "James Maurice Prendergast" */
 #name{
 padding-left:35px;
 font-size:42px;
 }
 
+/*this is the css that deals with the different header of each webpage fontsize*/
 #cv{
 font-size:30px;
 }
 
+/*this is the css for the font size of "return to the top of the page"*/
 #ok{
 font-size:30px;
 
 }
 
+/*this is css id for the up arrow image for index and projects*/
 #up{
 width:90px;
- height:90px;
+height:90px;
 }
 
+/*this is the css which puts the table from the side menu that deals with padding*/
 #important
 {
 
@@ -235,111 +257,117 @@ width:15%;
 padding-left:0px;
 }
 
- li {
-    list-style-type: none;
-	width:15%;
-  font-size:90%;
-	margin-top:25px;
+/*this is for all the lists in my webpage*/
+li {
+list-style-type: none;
+width:15%;
+font-size:90%;
+margin-top:25px;
 }
 
-
-
+/*this is for the title "quicklink" in the sidemenu*/
 #quicklink{
- float:left;
- font-size:15px;
- margin-bottom:10px;
+float:left;
+font-size:15px;
+margin-bottom:10px;
 }
 
+/*this is for the title "blog" in the sidemenu*/
 #blog{
 float:left;
- font-size:15px;
+font-size:15px;
 }
 
+/*this is for the title "about" in the sidemenu*/
 #about{
- float:left;
- font-size:15px;
+float:left;
+font-size:15px;
 }
 
+/*this is for the title "feedback" in the sidemenu*/
 #feedback{
 float:left;
- font-size:15px;
+font-size:15px;
 }
 
+/*this is for the title "contact" in the sidemenu*/
 #contact{
 float:left;
- font-size:15px;
+font-size:15px;
 }
 
-
+/*this is for the "blog" image in the sidemenu*/
 #blogimage{
  margin-top:40px;
  width:60px;
  height:60px;
 }
 
-
+/*this is for the "about" image in the sidemenu*/
 #aboutimage{
  margin-top:50px;
  width:60px;
  height:60px;
 }
 
+/*this is for the "contact" image in the sidemenu*/
 #contactimage{
-
  margin-top:50px;
  width:60px;
  height:60px;
 }
 
-
+/*this is for the "feedback" image in the sidemenu*/
 #feedbackimage{
  margin-top:50px;
  width:60px;
  height:60px;
 }
 
-
-
-
-
+/*this is the id for the "education" font for the hyper link*/
 #education{
 font-size:80%;
 }
 
+/*this is the id for the "employment" font for the hyper link*/
 #employment{
 font-size:80%;
 }
 
+/*this is the id for the "skills" font for the hyper link*/
 #skills{
 font-size:80%;
 }
 
+/*this is the id for the "personal qualities" font for the hyper link*/
 #personalqualities{
 font-size:80%;
 }
 
-
+/*this is the id for the "achievements" font for the hyper link*/
 #achievements{
 font-size:80%;
-
 }
 
+/*this is the id for the "interests" font for the hyper link*/
 #interests{
 font-size:80%;
 }
 
+/*this is for the toggle font box*/
 #toggle{
 display:none;
 }
 
-
+/*this is the css for the font size of "return to the top of the page"*/
 #ok{
 font-size:25px;
 font-weight: bold;
 }
 
+/*this is css id for the up arrow image for index and projects*/
 #up{
 margin-top:-25px;
 width:70px;
- height:70px;
+height:70px;
 }

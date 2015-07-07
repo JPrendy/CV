@@ -143,10 +143,9 @@ width:100%;
 #mainmenuproject{
 
   float: left;
-   width:85%;
-   bbackground-color:yellow;
-    background-color:#FAFAFF;
-   padding-top:20px;
+  width:85%;
+  background-color:#FAFAFF;
+  padding-top:20px;
   
 }
 
@@ -196,14 +195,14 @@ padding-bottom: 40px;
 
 /*this is a css table where the contact link is stored*/
 #row3{
-  padding-top: 120px;
-  padding-bottom: 40px;
+padding-top: 120px;
+padding-bottom: 40px;
 }
 
 /*this is a css table where the blog link is stored*/
 #row4{
-  padding-top: 120px;
-  padding-bottom: 115px;
+padding-top: 120px;
+padding-bottom: 115px;
 }
 
 /*this is a css table where the about link is stored with smaller padding in the other pages*/
@@ -228,8 +227,6 @@ padding-bottom: 40px;
   padding-top: 60px;
   padding-bottom: 65px;
 }
-
-
 
 /*this is the css that changes colour with the github repository table link*/
 #table3:hover {
@@ -305,13 +302,13 @@ font-size:30px;
 /*this is css id for the up arrow image for index and projects*/
 #up{
 width:100px;
- height:100px;
+height:100px;
 }
 
 /*this is css id for the up arrow image for feedback,contact and about*/
 #up2{
 width:80px;
- height:80px;
+height:80px;
 }
 
 /*this is the css which puts the table from the side menu that deals with padding*/
@@ -327,6 +324,11 @@ text-align:center;
  list-style-type: none;
  font-size:100%;
  margin-top:20px;
+}
+
+/*this is the css for the font size of "GITHUB REPOSITORY"*/
+#h{
+font-size:100%;
 }
 
 /*this is for the title "quicklink" in the sidemenu*/
