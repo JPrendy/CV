@@ -336,7 +336,7 @@ text-align:center;
  font-size:30px;
 }
 
-/*this is for the title "blog in the sidemenu*/
+/*this is for the title "blog" in the sidemenu*/
 #blog{
  font-size:30px;
 }
@@ -437,6 +437,7 @@ padding-top:10px;
 padding-bottom:10px;
 }
 
+/*this is used for the google form height and width*/
 #googleform{
 width:100%; 
 height:1050px;
