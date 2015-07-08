@@ -107,8 +107,7 @@ color: #white;
  }
  
  /*this is the css that has the bar that allows you to navigate to other pages at the bottom of the screen*/
-#abovefooter
-{
+#abovefooter{
 font-size:112.5%;
 font-family:Times New Roman;
 background-color:#FAFAFF;
@@ -139,12 +138,10 @@ width:100%;
 
 /*this is the css where most of the body of text goes for project.hmtl*/
 #mainmenuproject{
-
-  float: left;
-  width:85%;
-  background-color:#FAFAFF;
-  padding-top:20px;
-  
+float: left;
+width:85%;
+background-color:#FAFAFF;
+padding-top:20px; 
 }
 
 /*this is the css for image slide in projects.html*/
