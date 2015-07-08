@@ -161,16 +161,25 @@ height:300px;
 font-size:100%;
 }
 
+/*///////////////////////*/
+#cvtd{
+padding-top:10px;
+}
+
+/*///////////////////////*/
+#ptd{
+padding-top:10px;
+}
 
 /*this is the css which deals with "curriculum vitae" navigation header font*/
 #CVlink{
 
-font-size:34px;
+font-size:43px;
 }
 
 /*this is the css which deals with "projects" navigation header font*/
 #Plink{
-font-size:34px;
+font-size:43px;
 }
 
 /*this is the css that deals with the different header of each webpage fontsize*/
