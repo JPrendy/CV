@@ -147,7 +147,7 @@ padding-top:20px;
 /*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
-height:400px;
+height:300px;
 border-radius: 10px;
 }
 
@@ -229,16 +229,19 @@ background-color: #0099cc;
 background: #0099cc;
 }
 
+
 /*this is the css that changes colour with cv header table*/
 #cvtd:hover {
 background-color: #0099cc;
 background: #0099cc;
+border-radius:10px;
 }
 
 /*this is the css that changes colour with project header table*/
 #ptd:hover {
 background-color: #0099cc;
 background: #0099cc;
+border-radius:10px;
 }
 
 /*this is for all hyper links */
@@ -310,7 +313,7 @@ height:80px;
 #important
 {
 width:15%;
-padding-left:22px;
+padding-left:18px;
 text-align:center;
 }
 
@@ -354,29 +357,29 @@ font-size:100%;
 /*this is for the "blog" image in the sidemenu*/
 #blogimage{
  margin-top:40px;
- width:125px;
- height:125px;
+ width:135px;
+ height:135px;
 }
 
 /*this is for the "about" image in the sidemenu*/
 #aboutimage{
  margin-top:50px;
- width:95px;
- height:95px;
+ width:105px;
+ height:105px;
 }
 
 /*this is for the "contact" image in the sidemenu*/
 #contactimage{
  margin-top:50px;
- width:95px;
- height:95px;
+ width:105px;
+ height:105px;
 }
 
 /*this is for the "feedback" image in the sidemenu*/
 #feedbackimage{
  margin-top:50px;
- width:95px;
- height:95px;
+ width:105px;
+ height:105px;
 }
 
 /*this is the id for the "education" font for the hyper link*/
@@ -434,4 +437,15 @@ padding-bottom:10px;
 #googleform{
 width:100%; 
 height:1050px;
+}
+
+
+#slider1_container2{
+
+margin-left:100px;
+}
+
+#slider1_container{
+
+margin-left:100px;
 }
