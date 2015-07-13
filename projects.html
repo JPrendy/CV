@@ -83,7 +83,13 @@ $(document).ready(function(){
 });
 </script>
 
-
+<script>
+$(document).ready(function(){
+    $("#toggle").click(function(){
+        $("#mainmenuproject").toggleClass("toggle");
+    });
+});
+</script>
 
 <link rel="stylesheet" type="text/css" 
 href="style_large.css">
@@ -180,7 +186,7 @@ all screen sizes.
 <br></br>
 
 
-<div id="slider1_container1" style="position: relative; top: 0px; left: 0px; width: 400px;
+<div id="slider1_container1"  style="position: relative; top: 0px; left: 0px; width: 400px;
         height: 300px; ">
 
         <!-- Slides Container -->
@@ -192,8 +198,9 @@ all screen sizes.
   
         </div>
         
-        <!--#region Arrow Navigator Skin Begin -->
-        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+    
+	
+	
         <style>
             /* jssor slider arrow navigator skin 03 css */
             /*
@@ -222,10 +229,12 @@ all screen sizes.
             .jssora03r.jssora03rdn { background-position: -303px -33px; }
         </style>
         <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora03l" style="top: 123px; left: 8px;">
+		<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowleft" class="jssora03l" id="leftarrowslide">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora03r" style="top: 123px; right: 8px;">
+			<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowright" class="jssora03r" id="rightarrowslide">
         </span>
         <!--#endregion Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
@@ -292,12 +301,14 @@ and made a game that involved collecting points for as long as you have lives.
             .jssora03r:hover { background-position: -183px -33px; }
             .jssora03l.jssora03ldn { background-position: -243px -33px; }
             .jssora03r.jssora03rdn { background-position: -303px -33px; }
-        </style>
+         </style>
         <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora03l" style="top: 123px; left: 8px;">
+		<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowleft" class="jssora03l" id="leftarrowslide">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora03r" style="top: 123px; right: 8px;">
+			<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowright" class="jssora03r" id="rightarrowslide">
         </span>
         <!--#endregion Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
@@ -364,12 +375,14 @@ and a notepad to keep track of your dietery.
             .jssora03r:hover { background-position: -183px -33px; }
             .jssora03l.jssora03ldn { background-position: -243px -33px; }
             .jssora03r.jssora03rdn { background-position: -303px -33px; }
-        </style>
+     </style>
         <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora03l" style="top: 123px; left: 8px;">
+		<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowleft" class="jssora03l" id="leftarrowslide">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora03r" style="top: 123px; right: 8px;">
+			<!--this is where the ids are for position of the arrows icons-->
+        <span u="arrowright" class="jssora03r" id="rightarrowslide">
         </span>
         <!--#endregion Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
@@ -421,6 +434,9 @@ and a notepad to keep track of your dietery.
  </tr>
   
  </table>
+</div>
+<div id="toggle">
+<center><b>Toggle Font Size</b></center>
 </div>
 
 

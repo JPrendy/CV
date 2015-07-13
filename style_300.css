@@ -241,3 +241,43 @@ display: none;
 width:102.5%; 
 height:1200px;
 }
+
+/*this is the css for image slide in projects.html*/
+#slide{
+width: 280px;
+height:300px;
+border-radius: 10px;
+}
+
+
+
+#leftarrowslide{
+
+top: 123px; 
+left: 0px;
+}
+
+#rightarrowslide{
+
+top: 123px; 
+right:170px;
+}
+
+
+#slider1_container2{
+
+margin-left:0px;
+width:10%;
+}
+
+#slider1_container{
+
+margin-left:0px;
+width:10%;
+}
+
+#slider1_container1{
+
+margin-left:0px;
+width:10%;
+}

@@ -151,6 +151,17 @@ height:300px;
 border-radius: 10px;
 }
 
+#leftarrowslide{
+
+top: 123px; 
+left: 8px;
+}
+
+#rightarrowslide{
+
+top: 123px; 
+right: 8px;
+}
 
 /*this is the css table for the above footer which has the bar to the other links*/
 #table2{
@@ -449,3 +460,10 @@ margin-left:100px;
 
 margin-left:100px;
 }
+
+#slider1_container1{
+
+margin-left:100px;
+}
+
+
