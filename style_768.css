@@ -239,11 +239,10 @@ font-size:90%;
 /*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
-height:300px;
+height:350px;
 border-radius: 10px;
 }
 
 h3{
-
 margin-left:20px;
 }

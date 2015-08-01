@@ -82,6 +82,11 @@ float:left;
 width:15%;
 }
 
+#sidemenu4{
+padding-top:0px;
+width:100%;
+}
+
 /*this is the class that affects the overall look of the website*/
 .wrapper{
  font-size: 2.0 em;
@@ -315,29 +320,29 @@ font-size:15px;
 /*this is for the "blog" image in the sidemenu*/
 #blogimage{
 margin-top:40px;
-width:60px;
-height:60px;
+width:80px;
+height:80px;
 }
 
 /*this is for the "about" image in the sidemenu*/
 #aboutimage{
 margin-top:50px;
-width:60px;
-height:60px;
+width:80px;
+height:80px;
 }
 
 /*this is for the "contact" image in the sidemenu*/
 #contactimage{
 margin-top:50px;
-width:60px;
-height:60px;
+width:80px;
+height:80px;
 }
 
 /*this is for the "feedback" image in the sidemenu*/
 #feedbackimage{
  margin-top:50px;
- width:60px;
- height:60px;
+ width:80px;
+ height:80px;
 }
 
 /*this is the id for the "education" font for the hyper link*/
@@ -373,12 +378,12 @@ font-size:80%;
 /*this is the css for image slide in projects.html*/
 #slide{
 width: 400px;
-height:300px;
+height:350px;
 border-radius: 10px;
 }
 
-
+/*this affects the area where the headings is centered*/
 h3{
 
-margin-left:18px;
+margin-left:16px;
 }
