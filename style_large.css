@@ -149,9 +149,11 @@ width:100%;
 float: left;
 width:85%;
 background-color:#FAFAFF;
+  font-size:130.5%;
 padding-top:20px; 
   padding-right:30px;
   padding-left:30px;
+  padding-bottom:30px; 
 }
 
 /*this is the css for image slide in projects.html*/
@@ -164,14 +166,14 @@ border-radius: 10px;
 /*this is the left arrow icon in projects.html*/
 #leftarrowslide{
 
-top: 123px; 
+top: 163px; 
 left: 8px;
 }
 
 /*this is right arrow icon in projects.html*/
 #rightarrowslide{
 
-top: 123px; 
+top: 163px; 
 right: 8px;
 }
 
