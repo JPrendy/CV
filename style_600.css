@@ -371,3 +371,11 @@ margin-top:-25px;
 width:70px;
 height:70px;
 }
+
+
+/*this is the css for image slide in projects.html*/
+#slide{
+width: 400px;
+height:300px;
+border-radius: 10px;
+}

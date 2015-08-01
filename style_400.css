@@ -147,7 +147,7 @@ padding-right:1px;
 #mainmenuproject{
 float: left;
 width:100%;
-background-color:yellow;
+background-color:#FAFAFF;
 }
 
 /*this is the css for image slide in projects.html*/
@@ -251,4 +251,34 @@ display: none;
 #googleform{
 width:102.5%; 
 height:1200px;
+}
+
+
+/*this is the css for image slide in projects.html*/
+#slide{
+width: 390px;
+height:300px;
+border-radius: 10px;
+}
+
+#rightarrowslide{
+
+top: 123px; 
+right:20px;
+}
+
+#slider1_container2{
+
+margin-left:0px;
+overflow:none;
+}
+
+#slider1_container{
+
+margin-left:0px;
+}
+
+#slider1_container1{
+
+margin-left:0px;
 }
