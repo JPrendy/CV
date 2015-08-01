@@ -361,3 +361,10 @@ font-size:80%;
 #interests{
 font-size:80%;
 }
+
+/*this is the css for image slide in projects.html*/
+#slide{
+width: 400px;
+height:300px;
+border-radius: 10px;
+}
