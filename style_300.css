@@ -193,6 +193,10 @@ display: none;
 width:100%;
 }
 
+#sidemenu4{
+width:100%;
+}
+
 /*this is a css table where the about link is stored*/
 #row1{
 display: none;
