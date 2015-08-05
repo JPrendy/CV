@@ -148,6 +148,7 @@ padding-right:1px;
 float: left;
 width:100%;
 background-color:#FAFAFF;
+ padding-bottom:0px; 
 }
 
 /*this is the css for image slide in projects.html*/
