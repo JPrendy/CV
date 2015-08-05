@@ -151,7 +151,7 @@ width:100%;
 background-color:#FAFAFF;
 padding-left:1px;
 padding-right:1px;
-  padding-bottom:-10px; 
+  padding-bottom:0px; 
 }
 
 /*this is the css for image slide in projects.html*/
@@ -199,6 +199,7 @@ width:100%;
 
 #sidemenu4{
 width:100%;
+padding-top:20px;
 }
 
 /*this is a css table where the about link is stored*/
