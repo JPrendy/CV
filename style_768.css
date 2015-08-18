@@ -243,17 +243,25 @@ height:350px;
 border-radius: 10px;
 }
 
+/*this affects the area where the headings is centered*/
 h3{
 margin-left:20px;
 }
 
-
-#video
+/*this is the css for the website video in projects.html*/
+#video1
 {
 display:none;
 }
 
+/*this is the css for the space shooter video in projects.html*/
 #video2
+{
+display:none;
+}
+
+/*this is the css for the health app video in projects.html*/
+#video3
 {
 display:none;
 }
