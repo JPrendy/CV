@@ -74,7 +74,9 @@ padding-left:0px;
 /*this is the css for the website video in projects.html*/
 #video1
 {
-display:none;
+margin-left:600px;
+width:420px; 
+height:360px;
 }
 
 /*this is the css for the space shooter video in projects.html*/
