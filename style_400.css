@@ -273,18 +273,36 @@ top: 173px;
 right:20px;
 }
 
+/*this is the css for the large project images that appear in projects.html*/
 #slider1_container2{
-
 margin-left:0px;
 overflow:none;
 }
 
+/*this is the css for the large project images that appear in projects.html*/
 #slider1_container{
-
 margin-left:0px;
 }
 
+/*this is the css for the large project images that appear in projects.html*/
 #slider1_container1{
-
 margin-left:0px;
+}
+
+/*this is the css for the website video in projects.html*/
+#video1
+{
+display:none;
+}
+
+/*this is the css for the space shooter video in projects.html*/
+#video2
+{
+display:none;
+}
+
+/*this is the css for the health app video in projects.html*/
+#video3
+{
+display:none;
 }
