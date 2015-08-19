@@ -147,6 +147,7 @@ width:15%;
  float:left;
  font-size:18px;
  margin-bottom:10px;
+ margin-left:-2px;
 }
 
 /*this is for the title "blog" in the sidemenu*/
@@ -264,4 +265,23 @@ display:none;
 #video3
 {
 display:none;
+}
+
+
+/*this is the css for the large project images that appear in projects.html*/
+#slider1_container2{
+margin-left:100px;
+
+}
+
+/*this is the css for the large project images that appear in projects.html*/
+#slider1_container{
+margin-left:100px;
+
+}
+
+/*this is the css for the large project images that appear in projects.html*/
+#slider1_container1{
+margin-left:100px;
+
 }
