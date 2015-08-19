@@ -74,7 +74,7 @@ float:left;
 width:15%;
 }
 
-
+/*this is the css that brings you to the top of the page in projects.html*/
 #sidemenu4{
 padding-top: 120px;
 background-color:#FAFAFF;
@@ -82,6 +82,7 @@ float:left;
 width:15%;
 }
 
+/*this is the css that brings you to the top of the page in projects.html*/
 #sidemenu4{
 padding-top:0px;
 width:100%;
@@ -384,7 +385,6 @@ border-radius: 10px;
 
 /*this affects the area where the headings is centered*/
 h3{
-
 margin-left:16px;
 }
 

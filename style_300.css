@@ -169,12 +169,12 @@ font-size:100%;
 /*this is the css which deals with "curriculum vitae" navigation header font*/
 #CVlink{
 
-font-size:34px;
+font-size:33px;
 }
 
 /*this is the css which deals with "projects" navigation header font*/
 #Plink{
-font-size:34px;
+font-size:33px;
 }
 
 /*this is the css that deals with the different header of each webpage fontsize*/
@@ -197,6 +197,7 @@ display: none;
 width:100%;
 }
 
+/*this is the css that brings you to the top of the page in projects.html*/
 #sidemenu4{
 width:100%;
 padding-top:20px;
@@ -258,16 +259,14 @@ height:300px;
 border-radius: 10px;
 }
 
-
-
+/*this moves the left arrow slide for the images in project.html*/
 #leftarrowslide{
-
 top: 123px; 
 left: 0px;
 }
 
+/*this moves the right arrow slide for the images in project.html*/
 #rightarrowslide{
-
 top: 123px; 
 right:170px;
 }
@@ -290,18 +289,18 @@ margin-left:10px;
 display:none;
 }
 
+/*this is the css for the small images for the website project in projects.html __mobile view*/
 #img_1{
-
 display:inline;
 }
 
+/*this is the css for the small images for the space shooter project in projects.html __mobile view*/
 #img_2{
-
 display:inline;
 }
 
+/*this is the css for the small images for the health app project in projects.html __mobile view*/
 #img_3{
-
 display:inline;
 }
 
