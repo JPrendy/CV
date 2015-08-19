@@ -74,17 +74,23 @@ padding-left:0px;
 /*this is the css for the website video in projects.html*/
 #video1
 {
-display:none;
+margin-left:490px;
+width:420px; 
+height:360px;
 }
 
 /*this is the css for the space shooter video in projects.html*/
 #video2
 {
-display:none;
+margin-left:490px;
+width:420px; 
+height:360px;
 }
 
 /*this is the css for the health app video in projects.html*/
 #video3
 {
-display:none;
+margin-left:490px;
+width:420px; 
+height:360px;
 }

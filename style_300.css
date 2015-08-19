@@ -31,7 +31,7 @@ display:none;
 /*this is the css for the navigation bar with curriculum vitae and projects*/
 #header2{
 border-radius: 10px;
-height:80px;
+height:90px;
 width:100%;
 background-color: -webkit-linear-gradient(#5E5EDF,#3366FF); /* For Safari 5.1 to 6.0 */
 background-color: -o-linear-gradient(#5E5EDF,#3366FF); /* For Opera 11.1 to 12.0 */
