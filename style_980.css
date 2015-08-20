@@ -74,36 +74,58 @@ padding-left:0px;
 /*this is the css for the website video in projects.html*/
 #video1
 {
-display:none;
+mmargin-top:380px;
+margin-left:400px;
+width:320px; 
+height:350px;
 }
 
 /*this is the css for the space shooter video in projects.html*/
 #video2
 {
-display:none;
+mmargin-top:380px;
+margin-left:400px;
+width:320px; 
+height:350px;
 }
 
 /*this is the css for the health app video in projects.html*/
 #video3
 {
-display:none;
+mmargin-top:380px;
+margin-left:400px;
+width:320px; 
+height:350px;
 }
 
+/*this is the css for image slide in projects.html*/
+#slide{
+width: 300px;
+height:350px;
+border-radius: 10px;
+}
+
+/*this is right arrow icon in projects.html*/
+#rightarrowslide{
+
+top: 163px; 
+right: 108px;
+}
 
 /*this is the css for the large project images that appear in projects.html*/
 #slider1_container2{
-margin-left:150px;
-
+margin-left:50px;
+ppadding-bottom:550px;
 }
 
 /*this is the css for the large project images that appear in projects.html*/
 #slider1_container{
-margin-left:150px;
-
+margin-left:50px;
+ppadding-bottom:550px;
 }
 
 /*this is the css for the large project images that appear in projects.html*/
 #slider1_container1{
-margin-left:150px;
-
+margin-left:50px;
+ppadding-bottom:550px;
 }
