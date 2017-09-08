@@ -246,14 +246,13 @@ float: right;
 
 /*this helps for smaller screen sizes*/
 @media screen and (max-width: 630px) {
-  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 { {
+  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 {
     width: 350px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 { {
+  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 {
     width: 300px;
   }
-}
 }
