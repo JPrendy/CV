@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('CV_Website_version_2').then(function(cache) {
+   caches.open('CV').then(function(cache) {
      return cache.addAll([
        'index.html',
        'index.html?homescreen=1',
