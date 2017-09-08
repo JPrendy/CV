@@ -231,6 +231,14 @@ float: right;
 }
 }
 
+@media screen and (max-width: 350px) {
+#video1, #video2, #video3, #video4{
+  float:left;
+  width:300px;
+  height:220px;
+}
+}
+
 #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 {
  float:left;
   width:350px;
@@ -241,4 +249,11 @@ float: right;
   #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 { {
     width: 350px;
   }
+}
+
+@media screen and (max-width: 350px) {
+  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 { {
+    width: 300px;
+  }
+}
 }
