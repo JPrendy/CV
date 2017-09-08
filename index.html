@@ -1,55 +1,20 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
+<html lang="en">
+<head>
 
-<!--this is the css that adapt on the screen size you are on e.g desktop and mobile-->
-
-<link rel="stylesheet" type="text/css" 
-href="style_large.css">
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:981px) 
-and (max-width:1280px)"
-href="style_980.css">
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:768px) 
-and (max-width:980px)"
-href="style_768.css">
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:680px) 
-and (max-width:767px)"
-href="style_680.css">
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:600px) 
-and (max-width:679px)"
-href="style_600.css">
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:500px) 
-and (max-width:599px)"
-href="style_500.css">
-
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:430px) 
-and (max-width:499px)"
-href="style_400.css">
-
-
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) 
-and (max-width:429px)"
-href="style_300.css">
-
-
-
-<!--This is the head area of the  website for script references-->
-
-
-<!--this is the title of the webpage-->
-<title> Curriculum Vitae</title>
-<link rel="icon" href="images/j4.png">
-<!--this is where the favicon is-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<!--this is where google analytics is stored-->
+  <!--this is the title of the webpage-->
+  <title> Curriculum Vitae</title>
+  <link rel="icon" href="images/j4.png">
+  <!--this is where the favicon is-->
+    <link rel="stylesheet" type="text/css"  href="style.css">
+<!--Script to use AngularJS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#ff0000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#ff0000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#ff0000">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -60,322 +25,317 @@ href="style_300.css">
   ga('send', 'pageview');
 
 </script>
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
 
-<!--this is the addition of jQuery slider to show/hide the quicklinks-->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<!--the addition of jquery ui-->
-
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
-
-<script> 
-$(document).ready(function(){
-    $("#quicklink").click(function(){
-        $("#panel").slideToggle("fast");
-    });
-});
-</script>
-
-
-<!--this is used to animate my logo-->
-
-<script>
-$(document).ready(function(){
-     // this block will be executed  after DOM loaded
-        var div = $("#animate");  
-        div.animate({left: '5%'}, "slow");
-        div.animate({fontSize: '4em'}, "slow");
-
-});
-</script>
-
-<!--this is used to toggle the font size of the main menu-->
-
-<script>
-$(document).ready(function(){
-    $("#toggle").click(function(){
-        $("#mainmenu").toggleClass("toggle");
-    });
-});
-</script>
-
-
-
+</style>
 </head>
 <body>
-<!--this is where the wrapper that control the overall website how it work padding and size-->
-<div class="wrapper">
+
 <!--these will return you to the top of the page when you click the button in the html below-->
 <a id="return"></a>
 <a id="home"></a>
-
-
-<!--this is the one of the main classes, which is the header-->
 <div class="header">
+  <!--<div id="title">
 
-<!--this is where the title is stored-->
-<div id="title">
-<a href="index.html" id="name"> James Maurice Prendergast</a>
+    <a href="index.html" id="name"> James Maurice Prendergast</a>
+  </div>-->
 </div>
-
-<!--this is for the id that animates with jQuery-->
-<div id="animate" style=";position:absolute;">JP</div>
-
-</div>
-
-
-
-
-<!--this is the header that act as the navigation bar to the other pages-->
-<div id="header2">
-<table style="width:100%" id="table1">
-<tr id="style2" > 
-<td id="cvtd"><a href="index.html"     id="CVlink"> Curriculum Vitae</a></td>
-<td id="ptd"><a href="projects.html"   id="Plink"> Projects </a></td>
-
-</tr>
-</table>
-</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" aria-label="The Navigation bar that appears when on smaller devices" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="index.html" id="name"> James Maurice Prendergast</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <!--  <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
 
 
+      </ul>-->
+      <ul class="nav navbar-nav navbar-right">
 
+       <li><a href="index.html" id="cv_c">Curriculum Vitae</a></li>
+        <li><a href="projects.html" id="p_c">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<br></br>
 <!--this is id "headmenu that tells you where you are and give you a link towards my linkedin and my email-->
-<div id="headmenu">
-<b>
+<div class="container-fluid text-center" id="info">
+
 <center><font id="cv"><u>Curriculum Vitae</u></font></center>
-<br></br>
+<br/>
 
+<p id="link2"> <b>   Email: </b> jprendergastbusiness@gmail.com </p>
 
-<p id="link2">    Email: C13446122@mydit.ie </p> 
-<p id="link3">LinkedIn:  <a href="https://www.linkedin.com/in/jamesmprendergast" id="a"> https://www.linkedin.com/in/jamesmprendergast  </p></a>
- </b>
- 
-</div>
-
-<!--this id acts as the article "main menu" section where most of the important information goes-->
-
-<div id="mainmenu">
-<br></br>
-<p></p>
- <a id="education"></a>
-<p></p>
-<center><b><u>Education</b></u></center> 
-<b>September 2013 - Present:</b>
-<br></br>
-<b>DT228 BSc (Hons) Computer Science, Dublin Institute of Technology, Kevin Street, Dublin 8.</b>
-
-<br></br>
-<b>Current Modules:</b> Cloud Computing, Knowledge Engineering, Databases 2, Software Engineering 3, Cloud 
-Server Programming and Graphical User Interface Programming.
-
-
-<br></br>
-<b>Past Modules:</b>  Object Oriented Programming, Data Communications,  
-Algorithms & Data Structures, Legal & Professional Issues, Human Computer Interaction,
-Programming, Databases 1, Mathematics 1 and 2, Operating Systems 1 and 2,
-Software Engineering 1 and 2, Algorithm & Design & Problem, 
-Communications for Computer Technology, Program with Persistent Data, Web Development 1 and 2, Information Technological Fundamentals, Microprocessor Systems and
-Program Design.
-
-<br></br>
-<br></br>
- <b>September 2007 - 2013:</b>
- <br></br>
- <b>Belvedere College SJ, Great Denmark Street, Dublin 1.</b>
- <br></br>
- <b>Leaving Certificate - Higher:</b> Geography B1, Business C2, English D2, Biology C2, Spanish C3, Maths D1, Chemistry D2. 
- <b>Ordinary:</b> Irish B3.
- 
- 
- <br></br>
-<p></p>
-<a id="employment"></a>
-<p></p>
-<center><b><u>Employment</b></u></center> 
-<br></br>
-<b>CoderDojo Volunteer (February 2015 - Present)</b> Castleknock Community College, 
-Carpenterstown Road, Castleknock, Dublin 15.
-<br></br>
-
-
-CoderDojo is a global movement of free, volunteer-led,  community based programming clubs for young people.
-This facility was provided in Castleknock College where I prepared the computer rooms and took the register of attendance
-for the evening classes. I assisted the students in the learning of HTML and encouraged them to inform me if they had 
-any difficulty.
-
-
- 
- 
- <br></br>
- <br></br>
- <b>Peer Tutoring (January 2013 - July 2013)</b> St Mary's Place Primary School, Dorset Street, Dublin 7.
-<br></br>
-
-In a classroom I would provide extra support to students who needed assistance in completing their class work.
-During lunchtime I helped to set up the sports equipment and supervised the students at play.
-
-<br></br>
-<b>Employer Report -</b>“We thoroughly enjoyed having James with us. He is a lovely young man and
- worked very well with the kids”.
- <br></br>
- 
- 
-<b> Peer Tutoring (January 2012 - December 2012)</b> O’Connell Primary School, North Richmond 
-Street, Dublin 1.
- <br></br>
- 
- In this school I was engaged in helping children who had reading difficulties. This often involved assisting the 
- children who had difficulty pronouncing words and encouraging the students to tackle words they had trouble expressing.
- 
- <br></br>
-<b> Employer Report -</b> "He was very easy to work with and very popular with the boys. His punctuality 
- was impeccable and his help is much appreciated".
- <br></br>
- <br></br> 
-<a id="personalqualities"></a>
-
- <center><b><u>Skills and Personal Qualities</b></u></center>
- 
- <br></br>
-<b> Communication -</b> Effective communicator developed through engaging in volunteering opportunities. I have prepared reports, delivered presentations in class and to societies and participated in  debates.
-
-<br></br>
-<b>Teamwork - </b> Works well independently or as part of a team. I have participated in team projects in college and in societies.
-<br></br>
-<b>Hard-Working and Motivated -</b> Enjoys managing several tasks simultaneously. I work with determination to meet deadlines and I appreciate the importance of feedback.
-
-
-<br></br>
-<br></br> 
- <a id="interests"></a>
-
- <center><b><u>Achievements and Interests</b></u></center>
-<br></br> 
-
- I was a student volunteer with the St Vincent De Paul Society whose purpose is to serve the poor and disadvantaged. I was a leader of a Soup Run group. This involved preparing food and handing it out to homeless people 
- who we encountered on the streets. We would ask how well they were keeping. 
-<!--this inquired part can be left out of the cv-->
-
- <br></br>
-I was the Treasurer for the St Vincent De Paul Local Society for two years. This involved being responsible for the collecting and counting of money raised for the society. 
-
- <br></br>
-I was awarded the Bronze Gaisce Award. This involved the completion of a number of activities over a total of 26 weeks such as a task that involved the community, participating in a physical recreation challenge, development of a personal skill and the undertaking of an adventure journey.
-
- <br></br>
-My hobbies include cooking, photography, debating, web development and photoshop. I have commenced learning Android Development through Android Studio.
-I am interested in the advances of technology. I also have a keen interest in tennis and table tennis. 
-
-
-
+<hr>
 
 </div>
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-1 sidenav">
 
-<!--this is the "side menu" id that allows you quickly navigat to other pages without going to the footer area-->
-
- <div id="sidemenu">
-    
-      
-   
-	  
-	   <table id="important" >
-  <tr>
- <td id="row0">
- 
- <h3 id="quicklink">QuickLinks</h3>
- 
-<ul id="panel"><b>
-
-  <li><a href="#education" id="a"><font id="education2">Education</font></a></li>
-  <li><a href="#employment" id="b"><font id="employment2">Employment</font></a></li>
-  <li><a href="#personalqualities" id="c"><font id="skills2">Skills</font></a></li>
-  <li><a href="#personalqualities" id="d"><font id="personalqualities2">Personal Qualities</font></a></li>
-  <li><a href="#interests" id="e"><font id="achievements2" >Achievements</font></a></li>
-  <li><a href="#interests" id="f"><font id="interests2">Interests</font></a></li>
-  
-</ul></b>
-
- </td> 
- </tr> 
- 
- 
- <tr>
- <td id="row1">
-
- <h3 id="about"> <a href="about.html" >About </a></h3>
-     <a href="about.html" > <img src= "images/info.png" id="aboutimage" alt="Information Icon";></a>
- </td> 
- </tr> 
- 
- <tr> 
- <td id="row2">
-
-  <h3 id="feedback"><a href="feedback.html">Feedback</a></h3>
-      <a href="feedback.html"> <img src= "images/paper.png" id="feedbackimage" alt="Feedback Form";></a>
- </td>
- </tr>
- 
-  <tr> 
- <td id="row3">
-
-  <h3 id="contact"> <a href="contact.html">Contact</a></h3>
-        <a href="contact.html"> <img src= "images/contact2.png" id="contactimage" alt="Letter Icon"></a>
- </td>
- </tr>
-  <tr > 
- <td id="row4">
-
-   <h3 id="blog"><a href="https://jamesmauriceprendergast.wordpress.com/"> Blog</a></h3>
-    <a href="https://jamesmauriceprendergast.wordpress.com/"> <img src= "images/blogicon2.png" id="blogimage" alt="Blog Bubble" ></a>
- </td>
- </tr>
- 
- 
- 
- 
- </table>
-</div>
-
-<div id="toggle">
-<center><b>Toggle Font Size</b></center>
-</div>
-
-<!--this side menu allows you to go to the top of the page if you click on it-->
-<div id="sidemenu2">
-<br></br>
-<center> <a href="#return"><font id="ok">Return to the top of the page</font></a></center>
-<br></br>
- <center> <a href="#home"><img src="images/up2.png"  id="up" width="100" height="100" alt="Up Button"></a></center>
-
-</div>
+    </div>
+    <div class="col-sm-9 text-left">
 
 
-<!--this is the abovefooter area that acts the other area to go to the other links-->
-<div id="abovefooter" style="clear:both;text-align:center;height:30px;float:bottom;">
-<br></br>
-<center>
-<table id="table2" style="width:100%;text-align:center;">
- <td><a href="about.html" id="a" ondblclick="detectClick()">About  </a></td>
- <td><a href="feedback.html" id="a"ondblclick="detectClick()">Feedback </a></td>
-<td><a href="contact.html" id="a" ondblclick="detectClick()">Contact  </a></td>
- <td><a href="https://jamesmauriceprendergast.wordpress.com/"  id="a" ondblclick="detectClick()">Blog</td>
-</table></center>
+
+      <div id="mainmenu">
+
+      <p></p>
+  <a id="education"></a>
+
+      <h2><center><b><u>Education</b></u></center></h2>
+        <br></br>
+
+      <b>    September 2013 – May 2017:</b>
+      <br/>
+      <b> Dublin Institute of Technology</b>
+                 <b><center> BSc (Hons) Computer Science </center></b>
+
+    <br/>
+
+      <b>Degree Status:</b> Second Class Hons, Upper Division.
+
+      <br></br>
+      <b>Modules:</b>Advanced Databases, Advanced Security, Artificial Intelligence 1 and 2, Business Systems Intelligence, Cloud Computing, Rich Web Application and Spatial Databases.
+
+
+
+
+      <br></br>
+      <div class="dropdown">
+   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Past Modules:
+   <span class="caret"></span></button>
+   <ul class="dropdown-menu">
+     Object Oriented Programming, Data Communications,
+     Algorithms & Data Structures, Legal & Professional Issues, Human Computer Interaction,
+     Programming, Databases 1, Mathematics 1 and 2, Operating Systems 1 and 2,
+     Software Engineering 1 and 2, Algorithm & Design & Problem,
+     Communications for Computer Technology, Program with Persistent Data, Web Development 1 and 2, Information Technological Fundamentals, Microprocessor Systems and
+     Program Design.
+
+   </ul>
  </div>
- 
-  <br></br>
 
-  
-  <!--this is the footer class that displays a copyright that the website belongs to me-->
- <div class="footer" style="clear:both;text-align:center;height:30px;float:bottom;">
+      <br></br>
+       <b>September 2007 - 2013:</b>
+       <br/>
+       <b>Belvedere College SJ</b>
+       <br></br>
+       <b><center>Irish Leaving Certificate, 2013 (7 Hons)</center></b>
+       <br/>
+       <hr>
+      <p></p>
+      <a id="experience"></a>
+      <p></p>
+      <h2><center><b><u>Experience</b></u></center></h2>
+      <br></br>
 
-  <footer id="foot01"></footer>
+
+
+    <b>   February 2016 – October 2016:</b>
+    <br/>
+    <b>  SAP SSC (Ireland) Ltd. </b>
+    <br/>
+       <b><center>  Diploma Student Intern / Center of Expertise: Financials Advisor</center></b>
+   <br/>
+      •	Involved in the analysis of SAP customers’ software products to see where recommendations could be made on specific performance issues they raised.
+   <br/>
+      •	Devised detailed reports which outlined solutions to the issues customers were encountering on their servers. This involved knowing the fundamentals of Object Oriented Programming and database design.
+   <br/>
+      •	Developed outstanding communication skills to promote team building and to provide an open and constructive communication with the customer during and after delivery.
+   <br/>
+      •	Acted as a Support Advisor during the “GoLive Phase”, which was tailored to the individual needs of new and existing customers during the implementation of SAP software. My role was to monitor the system for immediate reaction in case of unforeseen incidents.
+   <br/>
+      •	SAP certified as a Support Engineer for SAP NetWeaver Application Server-Basics 1.0, Support Engineer SAP HANA 1.0 and Support Engineer for Workload Analysis Application server.
+   <br/>
+      •	Co-coordinator’s Report: “James has shown great commitment and dedication towards work”; “He is a quick learner and this was seen in the performance optimization services he has delivered on his own”.
+
+
+  <!--    <div ng-app="" ng-init="ex=['Involved in the analysis of SAP customers’ software products to see where recommendations could be made on specific performance issues they raised.
+','Devised detailed reports which outlined solutions to the issues customers were encountering on their servers. This involved knowing the fundamentals of Object Oriented Programming and database design.
+', 'Developed outstanding communication skills to promote team building and to provide an open and constructive communication with the customer during and after delivery.
+','Acted as a Support Advisor during the “GoLive Phase”, which was tailored to the individual needs of new and existing customers during the implementation of SAP software. My role was to monitor the system for immediate reaction in case of unforeseen incidents.
+', 'SAP certified as a Support Engineer for SAP NetWeaver Application Server-Basics 1.0, Support Engineer SAP HANA 1.0 and Support Engineer for Workload Analysis Application server.
+', 'Co-coordinator’s Report: “James has shown great commitment and dedication towards work”; “He is a quick learner and this was seen in the performance optimization services he has delivered on his own”.
+']">
+        <ul>
+          <li style="font-size:14px" ng-repeat="y in ex">
+            {{ y }}
+          </li>
+        </ul>
+      </div>-->
+
+
+           <br/>
+              <br/>
+      <b>February 2015 – December 2015:</b>
+      <br/>
+      <b>Castleknock Community College</b>
+      <center><b>CoderDojo Mentor (programming club for young people)</b></center>
+           <br/>
+      •	As a mentor, I helped children aged 8-16 learn to code, build websites, create apps and games, and explore technology in a series of evening classes.
+              <br/>
+      •	Involved in explaining programming concepts and their implementation to young people who had little or no prior knowledge of programming.
+
+
+
+
+
+
+      <hr>
+     <p></p>
+     <a id="volunteering"></a>
+     <p></p>
+     <h2><center><b><u>Volunteering</b></u></center></h2>
+
+       <br></br>
+        <b><center> Peer Tutoring</center></b>
+        <br/>
+       <b>January 2013 - July 2013:</b>
+       <br/>
+        <b>St Mary's Place Primary School</b>
+      <br></br>
+
+      In a classroom I would provide extra support to students who needed assistance in completing their class work.
+      During lunchtime I helped to set up the sports equipment and supervised the students at play.
+
+      <br/>
+      <b>Employer Report -</b>“We thoroughly enjoyed having James with us. He is a lovely young man and
+       worked very well with the kids”.
+       <br></br>
+
+
+      <b>January 2012 - December 2012:</b>
+      <br/><b>O’Connell Primary School</b>
+       <br></br>
+
+       In this school I was engaged in helping children who had reading difficulties. This often involved assisting the
+       children who had difficulty pronouncing words and encouraging the students to tackle words they had trouble expressing.
+
+       <br/>
+      <b> Employer Report -</b> "He was very easy to work with and very popular with the boys. His punctuality
+       was impeccable and his help is much appreciated".
+       <br></br>
+       <hr>
+      <p></p>
+      <a id="skills"></a>
+      <p></p>
+      <h2><center><b><u>Skills</b></u></center></h2>
+<br/>
+
+
+
+  <div ng-app="" ng-init="skills=['Programming languages: C and Java, with familiarity in Python','Browser-based JavaScript and Linux-based development','Amazon Web Services (AWS) ecosystem',
+  'Web frameworks such as Bootstrap and CMS such as WordPress','Web Services technologies such as XML, SOAP and AJAX', 'Core technologies including PHP, HTML5, CSS, JavaScript, JQuery, AngularJS',
+  'Hosting dynamic web pages including LAMP stack applications','Relational databases such as MySQL or PostgreSQL and NoSQL databases such as MongoDB']">
+    <b>Proficiency in the following techniques:</b>
+    <ul>
+      <li style="font-size:14px" ng-repeat="x in skills">
+        {{ x }}
+      </li>
+    </ul>
+  </div>
+
+       <br/>
+      <b> Communication -</b> Effective communicator developed through engaging in volunteering opportunities. I have prepared reports, delivered presentations in class and to societies and participated in  debates.
+
+      <br></br>
+      <b>Teamwork - </b> Works well independently or as part of a team. I have participated in team projects in college and in societies.
+      <br></br>
+      <b>Hard-Working and Motivated -</b> Enjoys managing several tasks simultaneously. I work with determination to meet deadlines and I appreciate the importance of feedback.
+
+
+      <br></br>
+
+      <hr>
+     <p></p>
+     <a id="interests"></a>
+     <p></p>
+     <h2><center><b><u>Interests</b></u></center></h2>
+      <br/>
+
+       I was a student volunteer with the St Vincent De Paul Society whose purpose is to serve the poor and disadvantaged. I was a leader of a Soup Run group. This involved preparing food and handing it out to homeless people
+       who we encountered on the streets. We would ask how well they were keeping.
+      <!--this inquired part can be left out of the cv-->
+
+       <br></br>
+      I was the Treasurer for the St Vincent De Paul Local Society for two years. This involved being responsible for the collecting and counting of money raised for the society.
+
+       <br></br>
+      I was awarded the Bronze Gaisce Award. This involved the completion of a number of activities over a total of 26 weeks such as a task that involved the community, participating in a physical recreation challenge, development of a personal skill and the undertaking of an adventurous journey.
+
+       <br></br>
+      My hobbies include filmography, photography, debating, web development and photoshop. I am interested in the advances of technology. I also have a keen interest in tennis and table tennis.
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="col-sm-2 sidenav">
+
+         <button type="button" id="button1i" class="btn btn-primary btn-block"><a href="#education" id="a_li">Education</a></button>
+
+
+         <button type="button" id="button2i"  class="btn btn-primary btn-block"><a href="#experience" id="b_li">Experience</a></button>
+
+         <button type="button" id="button3i"  class="btn btn-primary btn-block"><a href="#volunteering" id="c_li">Volunteering</a></button>
+
+         <button type="button" id="button4i"  class="btn btn-primary btn-block"><a href="#skills" id="d_li">Skills</a></button>
+
+                  <button type="button" id="button5i"  class="btn btn-primary btn-block"><a href="#interests" id="e_li">Interests</a></button>
+
+
+    </div>
+  </div>
 </div>
+<br/>
+
+<!--this is the footer class that displays a copyright that the website belongs to me-->
+<footer class="container-fluid text-center">
+<div class="btn-group text-center" >
+
+  <button type="button" class="btn btn-link"><a href="index.html" id="foot_bu_a">Curriculum Vitae</a></button>
+
+
+  <button type="button"   class="btn btn-link"><a href="projects.html" id="foot_bu_b" >Projects</a></button>
+
+  <button type="button"   class="btn btn-link"><a href="about.html" id="foot_bu_c" >About</a></button>
+
+  <button type="button"   class="btn btn-link "><a href="feedback.html" id="foot_bu_d" >Feedback</a></button>
+
+
+
+</div>
+
+  <p id="foot01"></p>
+</footer>
+
 <script src="script.js"></script>
-</div>
+<!--PUT THIS WHEN YOU ARE DONE WITH THE PROJECT-->
+<!--<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}-->
+</script>
 </body>
-</html> 
+</html>

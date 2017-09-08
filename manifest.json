@@ -1,0 +1,15 @@
+{
+  "name": "JamesMauricePrendergast",
+  "short_name": "JPrendergast",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A Portfolio Website to show off my Curriculum Vitae and Projects.",
+  "lang": "en-US",
+  "theme_color": "#ff0000",
+    "icons": [{
+   "src": "images/j512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+ }]
+  }

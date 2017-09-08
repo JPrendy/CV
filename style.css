@@ -1,0 +1,244 @@
+#headmenu {
+  float: left;
+  width:100%;
+  font-size:80.5%;
+
+  padding-bottom:5px;
+  border-bottom-style: inset;
+}
+
+#cv{
+font-size:30px;
+}
+
+#cvtd:hover {
+background-color: #0099cc;
+background: #0099cc;
+border-radius:10px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+
+#foot_bu_a, #foot_bu_b, #foot_bu_c, #foot_bu_d{
+color: white;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+  #foot_bu_a, #foot_bu_b, #foot_bu_c, #foot_bu_d{
+
+  padding-left: 0px;
+  padding-right: 0px;
+
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  #foot_bu_a, #foot_bu_b, #foot_bu_c, #foot_bu_d{
+
+   font-size: 10px;
+
+  }
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+
+
+}
+
+#col-sm-2{
+  height: 1450px;
+}
+
+
+
+
+body{
+font-family: 'Roboto Slab', serif;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    display: none;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+/* this is a css style for the header class which include the id "animate" and "title" */
+.header{
+  height: 10px;
+}
+
+
+
+#name{
+  font-size:40px;
+}
+
+@media screen and (max-width: 560px) {
+  #name {
+    font-size: 28px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 410px) {
+  #name {
+    font-size: 22px;
+
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #name {
+    font-size: 20px;
+
+  }
+}
+
+#a_li, #b_li, #c_li, #d_li, #e_li{
+  color:white;
+}
+
+#a_li_p, #b_li_p, #c_li_p, #d_li_p{
+  color:white;
+}
+
+#googleform{
+width:100%;
+height:1050px;
+}
+
+
+
+
+#footer_left{
+
+  padding-left: 0px
+}
+
+
+/*this is for all hyper links */
+a:link {
+text-decoration: none;
+color:black;
+}
+
+/*this is for all hyper links that are visited*/
+a:visited {
+text-decoration: none;
+color:black;
+}
+
+
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+#link2{
+font-size:20px;
+text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+#link2, #cv{
+font-size:14px;
+text-align: center;
+}
+}
+
+.btn.btn-primary.btn-block{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li{
+  padding: 5px;
+  font-size:30px;
+
+}
+
+/*
+
+
+llnefnsffs
+
+esfesfes
+esfesf
+*/
+
+/*this is the css that changes colour with the github repository table link*/
+#table3:hover {
+background-color: #0099cc;
+background: #0099cc;
+}
+
+@media screen and (max-width: 1232px) {
+  #button1p,#button2p,#button3p,#button4p{
+font-size: 14px;
+}
+}
+
+@media screen and (max-width: 950px) {
+  #button1p,#button2p,#button3p,#button4p{
+font-size: 11px;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+  #button1i,#button2i,#button3i,#button4i, #button5i{
+font-size: 13px;
+}
+}
+
+
+#video1, #video2, #video3, #video4{
+width:350px;
+height:220px;
+float: right;
+}
+
+@media screen and (max-width: 990px) {
+#video1, #video2, #video3, #video4{
+  float:left;
+}
+}
+
+#myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 {
+ float:left;
+  width:350px;
+}
+
+/*this helps for smaller screen sizes*/
+@media screen and (max-width: 630px) {
+  #myCarousel, #myCarousel2, #myCarousel3, #myCarousel4 { {
+    width: 350px;
+  }
+}
