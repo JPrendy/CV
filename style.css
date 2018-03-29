@@ -209,13 +209,13 @@ background: #0099cc;
 }
 
 @media screen and (max-width: 1232px) {
-  #button1p,#button2p,#button3p,#button4p{
+  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p{
 font-size: 14px;
 }
 }
 
 @media screen and (max-width: 950px) {
-  #button1p,#button2p,#button3p,#button4p{
+  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p{
 font-size: 11px;
 }
 }
@@ -228,14 +228,14 @@ font-size: 13px;
 }
 
 
-#video1, #video2, #video3, #video4, #video_fetch, #video_todo{
+#video1, #video2, #video3, #video4, #video_fetch, #video_todo, #video_bootstrap{
 width:450px;
 height: 250px;
 margin: 0 auto;
 }
 
 @media screen and (max-width: 990px) {
-#video1, #video2, #video3, #video4, #video_fetch, #video_todo{
+#video1, #video2, #video3, #video4, #video_fetch, #video_todo, #video_bootstrap{
   width: 80%;
   margin: 0 auto;
 }
