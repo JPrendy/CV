@@ -121,11 +121,11 @@ footer {
   }
 }
 
-#a_li, #b_li, #c_li, #d_li, #e_li, #Todo_li_p, #Fetch_li_p{
+#a_li, #b_li, #c_li, #d_li, #e_li, #Todo_li_p, #Fetch_li_p, #bootstrap_li_p{
   color:white;
 }
 
-#a_li_p, #b_li_p, #c_li_p, #d_li_p, #Todo_li_p, #Fetch_li_p{
+#a_li_p, #b_li_p, #c_li_p, #d_li_p, #Todo_li_p, #Fetch_li_p, #bootstrap_li_p{
   color:white;
 }
 
