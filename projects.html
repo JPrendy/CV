@@ -27,9 +27,9 @@
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 
 
@@ -60,29 +60,21 @@
     <a href="index.html" id="name"> James Maurice Prendergast</a>
   </div>-->
 </div>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index" id="name">James Maurice Prendergast</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-      <!--  <li><a href="index.html">Home</a></li>-->
-
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-
-       <li><a href="index">Curriculum Vitae</a></li>
-        <li><a href="projects">Projects</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-expand-lg  bg-dark navbar-dark">
+  <a class="navbar-brand" href="index" id="name">James Maurice Prendergast</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index" id="cv_c">Curriculum Vitae</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects" id="p_c">Projects</a>
+      </li>    
+    </ul>
+  </div>  
 </nav>
 
 <!--this is id "headmenu that tells you where you are and give you a link towards my linkedin and my email-->
@@ -101,16 +93,16 @@
     <div class="col-sm-1 sidenav">
 
     </div>
-    <div class="col-sm-9 text-left">
+    <div class="col-sm-8 text-left">
 
   <a id="e-learning"></a>
   <h2><center><b><u> E-learning System </u></b> </center></h2>
   <br/>
   <b> Description: </b>   My Final Year Project involved developing a fully working and extensive e-learning system using both front-end and back-end technologies hosted by Amazon Web Services. It was predominantly built with the use of PHP. Other e-learning systems were examined to see where they might be refined. The project used algorithms to adjust the difficulty of the questions based on the student’s average score. This method allows for a customized user-friendly experience regardless of the user’s ability. The user interface was designed to make the application straightforward and be navigational on any device size. The appearance of the application can be tailored to the user’s criteria to provide a more personalized experience.
   <br></br>
-  <center><center><button type="button" class="btn btn-default">
-  <a href="https://github.com/JPrendy/GITHUB_localhost_fyp" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png"  alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
-</button></center>
+  <center><center> <a href="https://github.com/JPrendy/GITHUB_localhost_fyp" target="_blank" ondblclick="detectClick()"><button type="button" class="btn btn-default">
+  <img src="images/GitHub_64px.png"  alt="Github logo" name="slide" width="40" height="40"> Github Repository
+</button></a></center>
   <br></br>
 
 
@@ -137,10 +129,10 @@
 <b> Description: </b>   A RESTful Blog Application that uses a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications called Express. The application uses a NoSQL database MongoDB and is designed with the framework Bootstrap 4.
 <br></br>
 <center>
-
+  <a href="https://github.com/JPrendy/BlogApp_Express" target="_blank" ondblclick="detectClick()">
 <button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/BlogApp_Express" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
-</button></center>
+ <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository
+</button></a></center>
 <br></br>
 
 
@@ -166,12 +158,15 @@
 
 <br></br>
 <center>
+<a class="whiteLink" href="https://jprendy.github.io/ToDo_List_JS_Example/"  target="_blank" ondblclick="detectClick()" >
 <button type="button" class="view btn btn-info">
-<a class="whiteLink" href="https://jprendy.github.io/ToDo_List_JS_Example/"  target="_blank" ondblclick="detectClick()" > View Live</a>
-</button>  
+ View Live
+</button>
+</a>
+<a href="https://github.com/JPrendy/ToDo_List_JS_Example" target="_blank" ondblclick="detectClick()">
 <button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/ToDo_List_JS_Example" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
-</button></center>
+ <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository
+</button></a></center>
 <br></br>
 
 
@@ -196,12 +191,16 @@
 <b> Description: </b>  A web application that uses the Fetch API to retrieve articles from the New York Times. The application allows for either search specific articles or the latest articles published on their website.  The application allows the user to navigate multiple pages. The design was built around Bootstrap 4.
 <br></br>
 <center>
+    <a class="whiteLink" href="https://jprendy.github.io/New_York_Times_Fetch_API_JS/"  target="_blank" ondblclick="detectClick()" > 
     <button type="button" class="view btn btn-info">
-        <a class="whiteLink" href="https://jprendy.github.io/New_York_Times_Fetch_API_JS/"  target="_blank" ondblclick="detectClick()" > View Live</a>
+        View Live
         </button>
+      </a>
+        <a href="https://github.com/JPrendy/New_York_Times_Fetch_API_JS" target="_blank" ondblclick="detectClick()"> 
   <button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/New_York_Times_Fetch_API_JS" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
-</button></center>
+<img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository
+</button>
+</a></center>
 <br></br>
 
 
@@ -223,15 +222,19 @@
   <a id="portfolio"></a>
 <h2><center><b><u> Portfolio Website </b></u></center></h2>
 <br></br>
-<b> Description: </b>    A portfolio website built using tested and documented HTML, CSS, jQuery and JavaScript. Built with Web Frameworks such as AngularJS and Bootstrap to allow for responsive and user-friendly design.
+<b> Description: </b>    A portfolio website built using tested and documented HTML, CSS, jQuery and JavaScript. Built with Web Frameworks such as AngularJS and Bootstrap 4 to allow for responsive and user-friendly design.
 <br></br>
 <center>
+    <a class="whiteLink" href="https://jamesmauriceprendergast.com/"  target="_blank" ondblclick="detectClick()" >
     <button type="button" class="view btn btn-info">
-        <a class="whiteLink" href="https://jamesmauriceprendergast.com/"  target="_blank" ondblclick="detectClick()" > View Live</a>
+         View Live
         </button>
+      </a>
+        <a href="https://github.com/JPrendy/CV"  target="_blank" ondblclick="detectClick()">
   <button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/CV"  target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
+ <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository
 </button>
+</a>
 </center>
 <br></br>
 
@@ -254,17 +257,21 @@
 <hr>
 
   <a id="bootstrap4"></a>
-<h2><center><b><u> Bootstrap4 User Interface Project </b></u></center></h2>
+<h2><center><b><u> Bootstrap 4 User Interface Project </b></u></center></h2>
 <br></br>
-<strong> Description: </strong>    A User Profile that uses the Bootstrap4 framework. Uses JavaScript localStorage to keep track of if you are following the user or not. When the user is being followed, the css of the application changes.
+<strong> Description: </strong>    A User Profile that uses the Bootstrap 4 framework. Uses JavaScript localStorage to keep track of if you are following the user or not. When the user is being followed, the css of the application changes.
 <br></br>
 <center>
+    <a class="whiteLink" href="https://jprendy.github.io/Bootstrap4-UI-Project/"  target="_blank" ondblclick="detectClick()" > 
     <button type="button" class="view btn btn-info">
-        <a class="whiteLink" href="https://jprendy.github.io/Bootstrap4-UI-Project/"  target="_blank" ondblclick="detectClick()" > View Live</a>
+       View Live
         </button>
+      </a>
+      <a href="https://github.com/JPrendy/Bootstrap4-UI-Project"  target="_blank" ondblclick="detectClick()">
   <button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/Bootstrap4-UI-Project"  target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository</a>
+ <img src="images/GitHub_64px.png" alt="Github logo" name="slide" width="40" height="40"> Github Repository
 </button>
+</a>
 </center>
 <br></br>
 
@@ -291,9 +298,13 @@
 stay alive as long as possible. It uses Java concepts like Inheritance and Encapsulation.
 
 <br></br>
-<center><center><button type="button" class="btn btn-default">
-<a href="https://github.com/JPrendy/SpaceShooter" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" name="slide" width="40" height="40"> Github Repository  </a>
-</button></center>
+<center>
+    <a href="https://github.com/JPrendy/SpaceShooter" target="_blank" ondblclick="detectClick()">
+  <button type="button" class="btn btn-default">
+ <img src="images/GitHub_64px.png" name="slide" width="40" height="40"> Github Repository  
+</button>
+</a>
+</center>
 
 <br></br>
 
@@ -312,42 +323,6 @@ stay alive as long as possible. It uses Java concepts like Inheritance and Encap
 </div>
 </div>
 
-
-
-
-
-<hr>
-  <a id="android_a"></a>
-<h2><center><b><u> Android Application </u></center></h2></b>
-<br></br>
-<b> Description: </b> This is an Android app that I constructed with two other designers. It is an app that aids health and well-being by providing a step counter
-and a notepad to keep track of the user's dietary intakes.
-<br></br>
-<center><center><button type="button" class="btn btn-default">
-<a href="https://github.com/Zontzor/Health" target="_blank" ondblclick="detectClick()"> <img src="images/GitHub_64px.png" name="slide" width="40" height="40"><font id="h"> Github Repository</a>
-</button></center>
-
-
-<br></br>
-
-
-<div class="container-fluid ">
-  <div class="row content">
-      
-
-
-
-<video id="video4" controls>
-  <source src="video_four.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</div>
-</div>
-
-
-
-
-
       </div>
 
 
@@ -362,21 +337,20 @@ and a notepad to keep track of the user's dietary intakes.
 
     <div class="col-sm-2 sidenav">
 
-               <button type="button" id="button1p" class="btn btn-primary btn-block"><a href="#e-learning " id="a_li_p">E-learning System</a></button>
+               <a href="#e-learning " id="a_li_p"></a><button type="button" id="button1p" class="btn btn-primary btn-block">E-learning System</button></a>
 
-               <button type="button" id="button2p"  class="btn btn-primary btn-block"><a href="#REST" id="REST_li_p">RESTful Blog App</a></button>
+               <a href="#REST" id="REST_li_p"><button type="button" id="button2p"  class="btn btn-primary btn-block">RESTful Blog App</button></a>
 
-               <button type="button" id="button3p"  class="btn btn-primary btn-block"><a href="#ToDo" id="Todo_li_p">JS ToDo List</a></button>
+               <a href="#ToDo" id="Todo_li_p"><button type="button" id="button3p"  class="btn btn-primary btn-block">JS ToDo List</button></a>
 
-               <button type="button" id="button4p"  class="btn btn-primary btn-block"><a href="#Fetch" id="Fetch_li_p">NYT Fetch API</a></button>
+               <a href="#Fetch" id="Fetch_li_p"><button type="button" id="button4p"  class="btn btn-primary btn-block">NYT Fetch API</button></a>
 
-               <button type="button" id="button5p"  class="btn btn-primary btn-block"><a href="#portfolio" id="b_li_p">Portfolio Website</a></button>
+               <a href="#portfolio" id="b_li_p"><button type="button" id="button5p"  class="btn btn-primary btn-block">Portfolio Website</button></a>
          
-               <button type="button" id="button6p"  class="btn btn-primary btn-block"><a href="#bootstrap4" id="bootstrap_li_p">Bootstrap4 Project</a></button>
+               <a href="#bootstrap4" id="bootstrap_li_p"><button type="button" id="button6p"  class="btn btn-primary btn-block">Bootstrap4 Project</button></a>
 
-               <button type="button" id="button7p"  class="btn btn-primary btn-block"><a href="#java_space" id="c_li_p">Java Space Shooter</a></button>
+               <a href="#java_space" id="c_li_p"><button type="button" id="button7p"  class="btn btn-primary btn-block">Java Space Shooter</button></a>
 
-               <button type="button" id="button8p"  class="btn btn-primary btn-block"><a href="#android_a" id="d_li_p">Android App</a></button>
 
 
     </div>
