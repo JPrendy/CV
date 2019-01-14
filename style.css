@@ -236,13 +236,13 @@ background: #0099cc;
 }
 
 @media screen and (max-width: 1232px) {
-  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p, #button8p{
+  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p, #button8p, #button9p {
 font-size: 14px;
 }
 }
 
 @media screen and (max-width: 950px) {
-  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p, #button8p{
+  #button1p,#button2p,#button3p,#button4p,#button5p,#button6p,#button7p, #button8p, #button9p {
 font-size: 11px;
 }
 }
